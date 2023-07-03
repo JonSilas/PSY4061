@@ -15,7 +15,7 @@ book:
   sidebar:
     tools:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/JonSilas/PSY4061
   chapters:
   - index.qmd
   - part: Using PsychoPy.qmd
