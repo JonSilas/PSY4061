@@ -1,0 +1,58 @@
+project:
+  type: book
+number-sections: false
+book:
+  title: Designing, Building and Explaining an Experiment
+  author: Jon Silas & Alex Jones
+  date: last-modified
+  downloads:
+  - pdf
+  - docx
+  - epub
+  sharing:
+  - twitter
+  - linkedin
+  sidebar:
+    tools:
+      - icon: github
+        href: https://github.com/
+  chapters:
+  - index.qmd
+  - part: Using PsychoPy.qmd
+    chapters:
+    - Getting Started.qmd
+    - 1.0_HelloWorld.qmd
+    - Simon.qmd
+    - SimonFeedback.qmd
+    - Branching.qmd
+    - Blocks.qmd
+  - part: PickAnExperiment.qmd
+    chapters:
+    - Erikson Flanker Task.qmd
+    - Spatial Cuing Task.qmd
+    - Levels of Processing.qmd
+    - N-back task.qmd
+    - Mental rotation.qmd
+  - Explain.qmd
+  - Resources.qmd
+  - references.qmd
+title-block-banner: true
+csl: apa.csl
+bibliography: references.bib
+toc-title: On this page
+format:
+  html:
+    link-external-newwindow: true
+    theme:
+      light: flatly
+      dark: darkly
+    css: include/webex.css
+    include-after-body: include/webex.js
+  pdf:
+    documentclass: scrreprt
+  epub:
+    cover-image: images/logo.png
+  docx:
+    toc: true
+editor: source
+  

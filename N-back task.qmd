@@ -1,0 +1,33 @@
+# N-back task
+
+The n-back task is a classical assessment of working memory capacity. Initially developed by @kirchner1958age, the task presents a continuous stream of stimuli, and the participant must identify when the same stimulus (or stimulus belonging to the same category) is presented *n* steps earlier in the sequence.
+
+You will need to build a behavioural n-back task using PsychoPy that conform to the requirements outlined below and allow you to measure reaction and accuracy for each condition.
+
+## Design
+
+This again is a simple 'flat' design the number of experimental conditions you have can vary but you should have at least two:
+
+-   Low *n* -- there should be a low number of steps between the identical stimuli.
+-   High *n* -- there should be a high number of steps between the identical stimuli.
+
+## Experimental requirements
+
+Your experiment must include the following
+
+-   An information and consent sheet.
+-   30 trials in each condition.
+-   A practice block where feedback is given to the participants based on their performance.
+-   Feedback in practice trials should be -- correct/incorrect/no-response, too slow.
+
+## Trial requirements
+
+-   The interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross -- the length of time the fixation trial is on the screen should vary such that it's offset is unpredictable.
+
+## Use your imagination
+
+There are several aspects of the experiment that you can change freely and systematically; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn't comprehensive; if it isn't specified above -- you can change it.
+
+-   Nature of the stimuli -\> words, pictures, letters, symbols etc.
+-   What participants are trying to identify is 'the same' --\> colour, meaning, location, look.
+-   Number of blocks and *n*'s -\> you can have just low and high, or more intervals.

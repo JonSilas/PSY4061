@@ -1,0 +1,34 @@
+# Resources
+
+There are multiple sources of information that you should use to help you along your journey to designing building
+
+## PsychoPy Specific
+
+-   [PsychoPy Experiment Recipe Book](https://workshops.psychopy.org/tutorials/index.html)
+
+-   [Susan Benear's - Coding Outreach Group Summer Workshop](https://tu-coding-outreach-group.github.io/cog_summer_workshops_2021/psychopy/index.html)
+
+-   [PsychoPy Forum](https://discourse.psychopy.org) -- use it, create an account, ask questions and help others.
+
+- [Excellent introductory information from the University of Nottingham](https://psychology.nottingham.ac.uk/staff/lpzjd/psgy1001-21/psychopy-basics.html) 
+
+-   [Peirce, J., Hirst, R., & MacAskill, M. (2022). Building experiments in PsychoPy. Sage.](https://mdx.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003398741504781&context=L&vid=44MUN_INST:hendon&lang=en&search_scope=Hendon_CI&adaptor=Local%20Search%20Engine&tab=default&query=any,contains,psychopy&offset=0)
+
+    -   Available electronically from MDX library - sign in required.
+
+-   [Slides Jon & Alex's lecture on PsychoPy](PsychoPy_Intro_lecture.pdf){target="_blank"}.
+
+## Python Specific
+
+-   Download and install [Python](https://www.python.org/)
+-   [Introduction to Python online](https://www.python.org/about/gettingstarted/)
+-   [learnpython.org](https://www.learnpython.org/)
+-   [Lutz, M. (2013). Learning python: Powerful object-oriented programming. " O'Reilly Media, Inc.".](https://mdx.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003226261604781&context=L&vid=44MUN_INST:hendon&lang=en&search_scope=Hendon_CI&adaptor=Local%20Search%20Engine&tab=default&query=any,contains,python&offset=0)
+    -   Available electronically from MDX library - sign in required.
+
+## Broader Programing Resources
+
+-   [R](https://www.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/)
+    -   R is a programming language commonly used in data science and statistics.
+    -   R studio is a desktop environment for using coding programs like R and Python.
+-   [PsyTeachR](https://psyteachr.github.io/) - is an amazing set of resources made freely available by the Psychology department at Glasgow University - highly recommended!

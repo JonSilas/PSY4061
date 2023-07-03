@@ -1,0 +1,65 @@
+{
+  "index.qmd": {
+    "index.html": "b83f02c2"
+  },
+  "intro.qmd": {
+    "intro.html": "07db837b"
+  },
+  "summary.qmd": {
+    "summary.html": "7740048f"
+  },
+  "references.qmd": {
+    "references.html": "f26ea476"
+  },
+  "Introduction.qmd": {
+    "Introduction.html": "fa502c72"
+  },
+  "Resources.qmd": {
+    "Resources.html": "b2625573"
+  },
+  "Build and Run an Experiment.qmd": {
+    "Build and Run an Experiment.html": "c06236bc"
+  },
+  "Erikson Flanker Task.qmd": {
+    "Erikson Flanker Task.html": "f3858567"
+  },
+  "Spatial Cuing Task.qmd": {
+    "Spatial Cuing Task.html": "5055b455"
+  },
+  "Explain.qmd": {
+    "Explain.html": "50bd3fdc"
+  },
+  "Levels of Processing.qmd": {
+    "Levels of Processing.html": "42a6895d"
+  },
+  "N-back task.qmd": {
+    "N-back task.html": "068aaa42"
+  },
+  "Mental rotation.qmd": {
+    "Mental rotation.html": "d172b3b6"
+  },
+  "Using PsychoPy.qmd": {
+    "Using PsychoPy.html": "323e3b42"
+  },
+  "Getting Started.qmd": {
+    "Getting Started.html": "c89712f5"
+  },
+  "1.0_HelloWorld.qmd": {
+    "1.0_HelloWorld.html": "6ca31788"
+  },
+  "Simon.qmd": {
+    "Simon.html": "b563b83c"
+  },
+  "SimonFeedback.qmd": {
+    "SimonFeedback.html": "1663e3f6"
+  },
+  "Branching.qmd": {
+    "Branching.html": "0e54ac94"
+  },
+  "Blocks.qmd": {
+    "Blocks.html": "46e5f99f"
+  },
+  "PickAnExperiment.qmd": {
+    "PickAnExperiment.html": "d65fdace"
+  }
+}

@@ -1,0 +1,99 @@
+# **4** | Branching
+
+First, download the [Branching.zip](PsychoPy/4.Branching.zip) folder and unpack it, then open the folder and open the 'Branching.psyexp' PsychoPy file. 
+
+You've been introduced to a small amount of coding and hopefully you can see how powerful it is - based on responses and their relation to the components and properties of the experiment you can modify what happens. Another useful aspect of this is 'branching' based on a response from the participant you may want to re-run a practice set of trials or exit an experiment early if the participant doesn't consent (for example).
+
+Although this experiment is simpler than the previous one - more is missing and there's more for you to do to make it function as it is supposed to - you may have to type some code! Remember **don't panic** we'll help you through it. At the moment, you see some instructions, and then irrespective of what key you press you then see a picture of a cat and then a dog. The idea is that you should be able to choose what you see next.  
+
+You'll need to get the experiment working appropriately, check the hints below  for support and if you get stuck ask an instructor in class or send them an email.
+
+## What you'll learn
+
+We want to increase your comfort with code without having to learn all the specific details. Going through this guide aims to teach you to: 
+
+- Become a little more comfortable with code components in PsychoPy. 
+- Learn how to 'branch' experiments based on responses. 
+- Increase your comfort with creating and using an Excel document to reference content in the 
+
+## Things to change
+
+1. Make the appropriate changes to the code and the routines so that when you press C you will see an image of a cat, when you press D you see a picture of a dog and when you press R the instructions repeat. 
+`r hide("Hint 1")`
+```{r,echo = FALSE, results='asis'}
+cat("Think about modifying the 'nReps' of the loops, make them 0 if you want to skip a routine and 1 if you want to include it in the procedure.")
+```
+`r unhide()`
+
+`r hide("Hint 2")`
+```{r,echo = FALSE, results='asis'}
+cat("Once you've made sure that the nReps in cat and dog can be set by code you need to write an if statement that runs in the 'start' routine.")
+```
+`r unhide()`
+
+`r hide("Hint 3")`
+```{r,echo = FALSE, results='asis'}
+cat("Your if statement should be in a code component in the 'start' routine. It should ensure that if a certain response is made - stored in `key_resp.keys = ` - then whatever you called the prperty in the nReps field should change. You should also add this in the tab of the 'code' component called 'End routine'")
+```
+`r unhide()`
+
+`r hide("Answer")`
+Ok first, you need to name nReps for the 'cat_loop' and the 'dog_loop', let's call them 'CatReps' and 'DogReps' respectively, then add a 'Code' component to the 'start' routine, in the 'End routine' tab add the following code: 
+
+```{r, eval=FALSE, echo = TRUE}
+if key_resp.keys == "d": 
+        CatReps = 0
+        DogReps = 1
+
+if key_resp.keys == "c":
+        CatReps = 1 
+        DogReps = 0
+```
+`r unhide()`
+
+2. Change the images, draw from a list in an excel document and do so randomly. 
+`r hide("Hint")`
+```{r,echo = FALSE, results='asis'}
+cat("This hopefully shouildn't be too tricky get some new images from the internet, change the image path in the routine to link to the excel file that will have the name of the image file. If you're getting stuck mack sure you've instructed the image to set every repeat and insure you've included the file type extension correctly.")
+```
+`r unhide()`
+
+3. Add responses to the images can you add new routines to jump to? Maybe add a goodbye message before the experiment ends?
+`r hide("Hint")`
+```{r,echo = FALSE, results='asis'}
+cat("This is the same logic to the code you've already written - just make some minor amendments so it can jump to a final screen - you're welcome to be creative here. ")
+```
+`r unhide()`
+
+4. Can you set up something useful - could you modify the experiment to have a 'press y to consent and continue' or 'press n to refuse consent and exit?
+
+`r hide("Hint")`
+```{r,echo = FALSE, results='asis'}
+cat("Again - use the same logic that you used to get the experiment working - simpply change the letters in the argument and the content of the routines.")
+```
+`r unhide()`
+
+## Test yourself
+ 
+```{r,echo = FALSE, results = 'asis'}
+question <- "**Question 1** | What is the name of the routine you need to put the code in?"
+cat(paste(question, "<br><br>", sep = ""))
+
+cat(fitb(c("start"), ignore_case = TRUE, width = "20"))
+
+```
+
+ 
+```{r,echo = FALSE, results = 'asis'}
+question <- "**Question 2** | What is the name of the tab the code should be in?"
+cat(paste(question, "<br><br>", sep = ""))
+
+cat(fitb(c("End routine"), ignore_case = TRUE, width = "20"))
+
+```
+
+`r hide("Explain answer")`
+```{r,echo = FALSE, results='asis'}
+cat("The code needs to be able to effect what happens straight after input is made so it goes in the 'start' routine where a response is inputted. However, it makes changes once the response has been given and so must go in the end 'routine tab'.")
+```
+`r unhide()`

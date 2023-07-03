@@ -1,0 +1,38 @@
+# Spatial Cuing Task
+
+Allocation of attention to a location in space has classically been explored using a @posner1980attention cueing paradigm. This task can, with small modifications, be used to explore either endogenous (voluntary/top-down) or exogenous (automatic/bottom-up) attentional mechanisms. The key dependant variable for this experiment is reaction time. Using different types of stimuli allows the research to explore questions about attentional resources for specific categories. 
+
+You will need to build a behavioural spatial cueing task using PsychoPy that conform to the requirements outlined below and allow you to measure reaction and accuracy for each condition.
+
+## Design
+
+Outlined here is a simple 'flat' design with one factor -- Validity, that has two levels:
+
+-   Valid -- where the target location is predicted by the cueing stimuli.
+-   Invalid -- where the target location is predicted by the cueing stimuli.
+
+You should include more factors to change the design to test your hypothesis; you must explain your choices in the summary of the experiment.
+
+## Experimental requirements
+
+Your experiment must include the following:
+
+-   An information and consent sheet.
+-   At least 5 practice trials where feedback is given to the participants based on their performance.
+-   Feedback in practice trials should be -- correct/incorrect/no-response, too slow.
+-   20 trials in each condition.
+-   Trials, across the three conditions, should be presented in a random order
+
+## Trial requirements
+
+-   The interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross -- the length of time the fixation trial is on the screen should vary such that it's offset is unpredictable.
+-   A fixation cross should remain on the screen throughout the trial so participants can focus their gaze.
+-   The interval between cue and target should vary such that the onset of the target is unpredictable.
+
+## Use your imagination
+
+There are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn't comprehensive; if it isn't specified above -- you can change it.
+
+-   Nature of the stimuli -\> words, pictures, letters, symbols etc.
+-   Testing endogenous, exogenous attention or both.
+-   Using central or peripheral cues.

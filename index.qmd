@@ -1,0 +1,55 @@
+# Introduction
+
+::: {style="float:right;position: relative; top: -80px;"}
+![](images/logo.png){width="200"}
+:::
+
+This is a companion guide to the module PSY4061 Practical Cognitive Neuroscience and is aimed specifically at helping you with the component of the portfolio linked to 'Designing, Building and Explaining an Experiment'. Your portfolio is worth 80% of your grade and Designing, Building and Explaining an Experiment is worth 40% of the portfolio.
+
+::: {.callout-important collapse="true" title="Portfolio Deadline"}
+
+You should submit your final functioning PsychoPy experiment as a zipped folder containing all relevant documents and programs. Your explanation of your experiment should be submitted as part of your portfolio. 
+
+**Portfolio submission deadline - 15.04.24 10am**
+
+Submit on MyLearning
+:::
+
+For this part of your assessment you will have to design and build a functioning behavioural experiment in a program called **PsychoPy**. The section [Using PsychoPy](Using PsychoPy.qmd) is designed to get you using PsychoPy and help you get comfortable enough to build your own experiment. Once you've gone through the introductory experiments check out the [Pick an Experiment](Build and Run an Experiment.qmd) section - you will need to choose one of these experiments to build in PsychoPy. 
+
+As well as building your experiment, you will also need to explain your experiment. You will need to write 1200 words, following the guidelines outlined in the [Explain Your Experiment](Explain.qmd) section.
+
+The resources and support in this online guide should be used in conjunction with the other forms of support available to you; in-class, via email and in one-to-ones with the module leaders. This whole guide can be downloaded as a PDF or word document by clicking the download button in the menu and selecting your preferred format. 
+
+## How to use this book/website
+
+For the most part you should go through this book in a linear fashion; page-by-page. You can skip forward one page at a time by using the arrow key at the bottom right of each page. If you need to come back to some of the information here you can use it as any website and the search bar - on the left - should help you find anything you are looking for. 
+
+There are three many parts to this book: 
+
+- [Using PsychoPy](Using PsychoPy.qmd) - Each chapter in this part is an exercise with activities and mini-quizzes for you to work through, aimed at getting you using and exploring PsychoPy. 
+
+- [Pick an Experiment](PickAnExperiment.qmd) - Each chapter is one possible experiment for you to choose to design and explain for your assessment; you don't need to read all of these but you should skim them to get a feel of which one you want to build and read that one in more detail. 
+
+- [Explain Your Experiment](Explain.qmd) - This section outlines what is required from you when you write up an explanation for your experiment that you've built.
+
+You might also find the icons in the navigation bar helpful: 
+
+|        |        |
+|--------|--------|
+| ![](images/github.png){fig-align="right" width="50"}|Link to github code for this book.|
+| ![](images/dwn2.png){fig-align="right" width="50"}   |Click to download this book as a .pdf, .docx, or .epub file.|
+| ![](images/share2.png){fig-align="right" width="50"} |Click to share to the link to the book with others.|
+|![](images/toggle2.png){fig-align="right" width="50"} |Click to switch between light and dark mode.|
+: {tbl-colwidths="[20,80]" .hover}
+
+
+
+
+
+
+
+
+
+
+

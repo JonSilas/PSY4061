@@ -1,0 +1,36 @@
+# Levels of Processing
+
+The Levels of Processing Framework [@craik1975depth] suggests that words are better encoded and hence remembered when they are processed more 'deeply'. For the most part, 'deep' processing is associated with semantic processing whereas 'shallow' processing is associated with perceptual encoding of the stimuli. The key manipulation in this experiment is the instructions given to participants when they are looking at the to-be-remembered words (i.e., during encoding).
+
+You will need to build a memory task using PsychoPy that conform to the requirements outlined below and allow you to measure correctly remembered items, correctly rejected items, incorrectly rejected items and falsely remembered items (from which you can calculate d' see [here](https://dictionary.apa.org/d-prime) for information).
+
+## Design
+
+This again is a simple 'flat' design with two experimental conditions:
+
+-   Shallow encoding -- the task given to the participant requires them to attend to perceptual features of the stimuli.
+-   Deep encoding -- the task given to the participant requires them to attend to conceptual features of the stimuli.
+
+## Experimental requirements
+
+Your experiment must include the following:
+
+-   An information and consent sheet.
+-   20 trials in each condition.
+-   Trials, across the conditions, should be presented in a random order.
+-   The encoding and recognition block should be separated by a distractor task.
+-   In the recognition block double the number of stimuli should be shown to the participants compared to the encoding block -- 50% previously seen (old) and 50% unseen (new) stimuli.
+-   Stimuli sets should be counterbalanced across participants.
+
+## Trial requirements
+
+-   The interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross -- the length of time the fixation trial is on the screen should vary such that it's offset is unpredictable.
+
+## Use your imagination
+
+There are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn't comprehensive; if it isn't specified above -- you can change it.
+
+-   Nature of the stimuli -\> words, pictures, letters, symbols etc.
+-   Nature of the task -\> how will you define what shallow and deep processing is?
+-   Nature of retrieval -\> you can choose to look at implicit or explicit memory based on how you measure retrieval.
+-   Attention check -\> How do you know your participants were paying attention, what steps can you take to identify this.

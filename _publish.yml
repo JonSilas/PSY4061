@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: ab5a4204-0af6-4d79-ac53-58fca3c99f69
+      url: 'https://jonsilas.quarto.pub/designing-building-and-explaining-an-experiment'

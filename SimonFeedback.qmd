@@ -1,0 +1,164 @@
+# **3** | Simon Feedback 
+
+First, download the [Feedback.zip](PsychoPy/3. Feedback.zip) folder and unpack it, then open the folder and open the 'SimonEffect_feedback.psyexp' PsychoPy file. 
+
+In this experiment we are again increasing complexity but this time in an incremental fashion - we'll be adding to the Simon Effect from the last experiment. If you run the experiment from scratch you should see that it doesn't work properly - you'll need to fix it as you make changes below. The idea is that after each trial you should be told whether or not you responded correctly. In this experiment we are starting to introduce some very basic code - if you're not familiar with code **don't panic**. We'll introduce some simple snippets of code and you won't need to be an expert to make your own experiment do what you want. 
+
+## What you learn
+
+Things are getting a little more complicated but we hope playing around here will teach you the following:
+
+* How to insert code components.
+* How to modify basic code and even write some of your own. 
+* How to implement basic feedback. 
+* Introduction into troubleshooting. 
+
+## Things to change
+
+As we said, the experiment is again looking at the Simon effect - there are 4 trials 2 congruent and 2 incongruent. But if you run the experiment you don't get the appropriate feedback! Let's make some changes so that it works and then experiment a bit further: 
+
+1.\ Try to get the feedback working!
+`r hide("Hint 1")`
+```{r,echo = FALSE, results='asis'}
+cat("You will need to tell PsychoPy what a correct answer is! You can do this in the 'trial' routine, in the 'key_resp' component.")
+```
+`r unhide()`
+
+`r hide("Hint 2")`
+```{r,echo = FALSE, results='asis'}
+cat("The correct response can't be static - rather you will have to reference to a column in the excel spreadsheet")
+```
+`r unhide()`
+
+`r hide("Answer")`
+```{r,echo = FALSE, results='asis'}
+cat("In the 'trial' routine in the 'key_resp' component, go to the 'Data' tab and click 'Store correct'. In the 'Correct answer' box type `$answer`. The open the Excel file called 'trials' add a new column with the headin 'answer' in that column add the correct response expected for each trial. Save and close the excel document - reload it in the trials loop and run the experiment again.")
+```
+`r unhide()`
+
+2.\ Change the colour and text of the feedback to anything you want. 
+`r hide("Hint 1")`
+```{r,echo = FALSE, results='asis'}
+cat("Locate the code component in the 'Feedback' routine - open it up and see what you can understand.")
+```
+`r unhide()`
+
+`r hide("Hint 2")`
+```{r,echo = FALSE, results='asis'}
+cat("In the code just try changing `fb_text =` and the `fb_col=` what colors does it recognise?")
+```
+`r unhide()`
+
+
+3.\ Modify the experiment so that you have a time limit to respond in - can you then modify the feedback so it says 'Too slow!' if no response was given? (this can be tricky).
+`r hide("Hint 1")`
+```{r,echo = FALSE, results='asis'}
+cat("This is a hard one - don't give up yet; try googling... seriously, learning how to find the solution to a coding problem yourself by using the internet is a useful skill and can be really satisfying.")
+```
+`r unhide()`
+
+`r hide("Hint 2")`
+```{r,echo = FALSE, results='asis'}
+cat("Ok, ok - I'll help. Once you've set a timelimit on all components on the 'trial' routine you'll need to change some code. Instead of `if key_resp.corr:` try `if key_resp.corr == 1`. Then think about trying an `elseif` code line.")
+```
+`r unhide()`
+
+`r hide("Hint 3")`
+```{r,echo = FALSE, results='asis'}
+cat("Still a bit tricky, I get it. You can use `and` in `if` functions, you can also use not but that's expressed like `!=` which effectively means 'is not'.")
+```
+`r unhide()`
+
+`r hide("Answer")`
+```{r,echo = FALSE, results='asis'}
+cat("Don't give up - try the PsychoPy forums first!")
+```
+`r unhide()`
+
+`r hide("Real answer")`
+It's a tricky one and if you haven't coded before don't feel to disheartened if you didn't get it. You'll need the following code in the 'fb_code_2' component in the 'Begin Routine' tab:
+
+```{r, eval=FALSE, echo = TRUE}
+if key_resp.corr == 1: 
+  fb_text = "Correct!"
+  fb_col ="green"
+elif key_resp.corr == 0 and key_resp.keys != None:
+  fb_text = "Wrong!"
+  fb_col ="red"
+elif key_resp.corr == 0 and key_resp.keys == None:
+  fb_text = "Too slow!"
+  fb_col ="black"
+```
+`r unhide()`
+
+::: {.callout-caution collapse="true"}
+## Caution
+When you are adding code that will define the content of text stimuli, as in this experiment, it's important that the code come before text component like this:
+
+
+![](images/txt_code_correct.png){width="600"}
+
+
+Not after, like this: 
+
+
+![](images/txt_code_incorrect.png){width="600"}
+ 
+
+You can move any component up or down by right clicking on the component and selecting any of the 'move' options, like this:
+
+
+![](images/move.png){width="300"}
+
+:::
+
+
+## Test yourself
+
+```{r,echo = FALSE, results = 'asis'}
+question <- "**Question 1** | In a code chunk, is the name of the coding language used to programme PsychoPy?"
+cat(paste(question, "<br><br>", sep = ""))
+
+cat(fitb(c("Python"), ignore_case = TRUE, width = "20"))
+
+```
+
+```{r, echo = FALSE, results = 'asis'}
+
+opts <- c("&", 
+           answer = "#", 
+            "*", 
+            "%")
+
+q1 <- mcq(opts)
+
+cat("**Question 2** | What charachter is used to 'comment out' text?","<br><br>", q1)
+```
+`r hide("Explain this answer")`
+```{r,echo = FALSE, results='asis'}
+cat("When coding it's good practice to annotate your code so other people find it easier to understand and you will remember what you did better. Leave comments in code chunks within PsychoPy by using '#'")
+```
+`r unhide()`
+
+
+
+```{r,echo = FALSE, results = 'asis'}
+question <- "**Question 3** | What's the name of the property that you need to change to increase the number of repetitions that a loop will go through?"
+cat(paste(question, "<br><br>", sep = ""))
+
+cat(fitb(c("nReps"), ignore_case = TRUE, width = "20"))
+
+```
+
+
+
+
+
+If you need help - speak to instructors in class, check the online guide or contact a member of staff via email.
+
+
+
+
+
+
+

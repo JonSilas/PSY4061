@@ -1,0 +1,14 @@
+{
+  "hash": "df1c3ff686d5eab0cb4521c662ff5296",
+  "result": {
+    "markdown": "---\ntitle: \"PSY4061 - Coding with PsychoPy\"\nauthor: \"Jon Silas\"\ndate: \"2023-06-15\"\ndocumentclass: book\nlink-citations: yes\ndescription: \"This book is a companion guide to the module PSY4061 Practical Cognitive Neuroscience and is aimed specifically at helping you with the PsychoPy Component of the assessment.\"\n---\n\n\n\n\n# Preface {.unnumbered}\n\nThis book is a companion guide to the module PSY4061 Practical Cognitive Neuroscience and is aimed specifically at helping you with the PsychoPy Component of the assessment.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

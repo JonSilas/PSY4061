@@ -1,0 +1,37 @@
+# Using PsychoPy
+
+::: {style="float:right;position: relative; top: -10px;"}
+![](images/psychopyLogo.png){width="200"}
+:::
+
+## Introducion
+
+PsychoPy® is a free cross-platform package allowing you to run a wide range of experiments, developed by psychologists at the University of Nottingham. The program is stand alone - you can download and run it in Windows, Mac OS or linux, without anything else - and it can be used almost entirely without having to learn how to code (however, it does help). PsychoPy is based on the programming language [Python](https://www.python.org) - whilst there are many different programming languages, all with different specific uses, issues and benefits, Python is increasingly the most commonly used language in the scientific community, world wide.
+
+## Teaching and Learning
+
+PSY4061 as a module, and the Cognitive & Clinical Neuroscience MSc at Middlesex, doesn't explicitly teach programming and coding - we think there's enough neuroscience to get through! But, in this module we would be remiss if we didn't provide some introduction to the methods cognitive neuroscientists use to build and deploy experiments. If you are keen in continuing in a career within cognitive neuroscience, specifically, or in the research sciences more broadly, we strongly encourage you to develop your Python skills further(and coding skill more generally) - we provide some links to freely available resources you can use to do this (see, [Resources](Resources.qmd) section) . If you are more interested in clinical neuroscience or working in the commercial sector - we feel the skills you will learn here will certainly benefit you long term, but you may not want to peruse coding and Python any further.
+
+## Beyond the Code
+
+Whilst we think there is value in learning a little bit of PsychoPy programming in and among itself, we also think there is broader value to be gained from understanding how cognitive neuroscience implements the test of a theory via experimental research. In line with the ethos of the module - understanding the methods of cognitive neuroscience provides you with a greater critical view on the claims being made by cognitive neuroscientists in the papers you read. This is why a functioning experiment is not the only partof this assessment you will also need to explain the underlying principles and theory of you experiment (see [Explain your experiment](Explain.qmd) section). 
+
+## Underlying Method
+
+There are many different approaches to teaching and learning how to use new software. There are dozens of online tutorials that will take you through, step-by-step how to perform specific functions in any given software. While this can be useful for learning how to execute specific operations in a specific software - we don't think this approach teaches what we want you to learn - independently and creatively navigating a software and the underlying principles of why you are using and manipulating the software.
+
+## What to do
+
+In these pages, and in the materials we have written to help you, we haven't provided any click-by-click guide on how to use PsychoPy, or build your experiment. Rather, in what follows, there are some ready built simple PsychoPy programs. You need to download them and amend them - the idea is that in amending, editing and playing with them creatively, you will become accustomed to manipulating the software and develop the knowledge and skills you need to build your own experiment! Once you have completed the [Getteing Started](Getting Started.qmd), in the coming sections you should:
+
+-   Download the \*.zip folder.
+-   Extract the folder locally to your computer.
+-   Open the PsychoPy experiment (\*.psypexp).
+-   The read-me file will open - follow the instructions to make changes to the PsychoPy program.
+-   Be creative - you can't do anything wrong - break and fix and change the basic program as much as you like.
+
+# Where to Get Help?
+
+-   You will be given time in class to explore PsychoPy - speak to tutors and get in person support.
+-   Use the [Resources](Resources.qmd) section for online help.
+-   Book an online or in-person one-to-one session with module leaders.

@@ -1,0 +1,7 @@
+# **0** | Getting Started 
+
+* Download and install standalone [PsychoPy](https://psychopy.org/download.html) program. 
+* Install PsychoPy on your machine. 
+* Explore some of the demos automatically installed as part of the package or work your way through the tutorials in the coming chapters.
+
+ 

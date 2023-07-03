@@ -1,0 +1,137 @@
+# **5** | Blocks
+
+First, download the [Blocks.zip](PsychoPy/5.Blocks.zip) folder and unpack it, then open the folder and open the 'Blocks.psyexp' PsychoPy file. 
+
+
+Up till now we have had a strong focus on 'trials' - that is, one instance of one condition that a participant typically generates one response for (complicated experiments may vary slightly). A 'block' of trials is usually the repetition of multiple trials. Within a block each trial may vary based on its condition and the only reason you would 'block' trials would be to give participants a break. Sometimes, when, cognition might be affected by adjacent trials, it might be better to separate conditions across blocks - this is typically referred to as a 'blocked' condition or paradigm. 
+
+In this experiment we will have a simple trial with two conditions - we will then try set up the experiment so that we vary those conditions randomly within a block and take breaks. Then we will try to set up the experiment so that there is one condition in each block. 
+
+This task is a perceptual discrimination task - whilst fixating your gaze on the fixation cross participants are asked to judge if lines on either side of the cross are the same length or different. Currently the experiment runs through instructions, two trials (one in the 'same' condition, the other in the 'different' condition) a break screen and then ends. 
+
+## What you'll learn
+
+- How to implement blocks. 
+- How to implement block designs and blocks for breaks. 
+- How to change the break message based on blocks. 
+- Become more comfortable with loops and code. 
+
+
+::: {.callout-caution collapse="true"}
+## Caution
+When attempting to make blocks a common mistake is to make separate trials with separate routines in them like the image below:
+
+![](images/blocks.png)
+
+Instead use loops within loops to cause blocks - this means you can maintain trial consistency. See the below image: 
+
+
+![](images/blocks_correct.png)
+
+:::
+
+## Things to change
+
+1. Add another block, so that you are presented with one trial from each condition then a break before another block of the same. 
+`r hide("Hint")`
+```{r,echo = FALSE, results='asis'}
+cat("Add another loop around the 'trials' loop that ends after the 'block_break' routine - call this loop 'block'.")
+```
+`r unhide()`
+
+2. Modify your experiment so that you present two trials from the 'same' condition in one block, and two trials from the 'different' condition in another. 
+`r hide("Hint")`
+```{r,echo = FALSE, results='asis'}
+cat("You will need to modify the Excel documents and create new ones for this to work. You'll need three files in total.")
+```
+`r unhide()`
+
+`r hide("Answer")`
+```{r,echo = FALSE, results='asis'}
+cat("You will need to create three Excel documents, one for the 'same' trials and one for the 'different' trials. In a third document - call it 'blocks.xlsx', provide the names of the new Excel document in a column called conditions (remember to use '.xlsx' in the name). In the 'trials' loop refernce the file names by entering `$conditions`. Finally, in the 'block' loop load the file 'blocks'.")
+```
+`r unhide()`
+
+
+3. For either block, format present a different message in the break for each block, for example 'that was the first block, you have one more to go' for the end of the first block but something different for the last block. 
+
+`r hide("Hint 1")`
+```{r,echo = FALSE, results='asis'}
+cat("You will need to add some code for this. Add a code component to the 'block_break' routine. Check back to the feedback task and look at how you defined a message using code")
+```
+`r unhide()`
+
+`r hide("Hint 2")`
+```{r,echo = FALSE, results='asis'}
+cat("You'll need to define a 'block counter' this should equal to zero when the experiment starts.")
+```
+`r unhide()`
+
+`r hide("Answer")`
+Add a code component to the 'block_break' routine. In the 'Before Experiment' tab add the following code. 
+```{r, eval=FALSE, echo = TRUE}
+# define a block counter that will start at zero.
+block_count = 0
+```
+In the 'text_3' routine - delete in the text that's there and add a variable, we'll call it `$block_msg` and change it to set every repeat.
+
+Then in the 'Begin Routine' tab add the following. 
+```{r, eval=FALSE, echo = TRUE}
+#add one to the block counter at the beginning of the routine. 
+block_count = block_count + 1;
+
+#add an if function that writes a messages based on the block. 
+if block_count == 1:
+  block_msg = 'That is one block complete, you have one more to go. \n \n Press space when you are ready to start'
+  
+elif block_count == 2:
+  block_msg = 'Great - the experiment is over. \n \n Press space to end the experiment.'
+```
+Your block messaging should now work! 
+`r unhide()`
+
+
+## Test yourself
+
+```{r, echo = FALSE, results = 'asis'}
+
+opts <- c(answer = "&bsol;n", 
+           ">", 
+            "<", 
+            "p")
+
+q1 <- mcq(opts)
+
+cat("**Question 1** | When coding a message to be displayed to participants, as in this experiment, what do you type to force a new line in the text?","<br><br>", q1)
+```
+
+```{r,echo = FALSE, results = 'asis'}
+question <- "**Question 2** | What's the name of the component where reaction times to same/different jusdgments are stored? "
+cat(paste(question, "<br><br>", sep = ""))
+
+cat(fitb(c("key_resp_2"), ignore_case = TRUE, width = "20"))
+
+```
+
+`r hide("Answer")`
+```{r,echo = FALSE, results='asis'}
+cat("key_resp_2")
+```
+`r unhide()`
+
+
+```{r, echo = FALSE, results = 'asis'}
+
+opts <- c("Yes", 
+           answer = "No")
+
+q1 <- mcq(opts)
+
+cat("**Question 3** | Would the storage of RTs, accuracy or any participant data change as a function of which block is running?","<br><br>", q1)
+```
+
+`r hide("Explain")`
+This is the advantage of this method of creating blocks - because routines and components are identical - it's easier to organise and analyse the data. 
+`r unhide()`
+
+

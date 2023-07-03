@@ -1,0 +1,33 @@
+# Mental rotation
+
+This measures an individual's capacity to represent an image and rotate it in their mind. The nature of the stimuli and the complexity of shapes is often found to cause a change in accuracy in reaction times of mental rotation. Typically, an image is presented on the screen and the participant has to chose which of four possible targets is the same as the cue image but rotated in space. Usually, individual differences are reported in mental rotation, but you should focus your experiment on within-subject manipulations. Although the first reported experimental protocol of mental rotation is decades old [@vandenberg1978mental], the task is still used today. 
+
+You will need to build a behavioural mental rotation task using PsychoPy that conform to the requirements outlined below and allow you to measure reaction and accuracy for each condition.
+
+## Design
+
+This again is a simple 'flat' design the number of experimental conditions you have can vary but you should have at least one factor and 4 conditions:
+
+-   Orientation -\> the correct answer should be rotated at four different orientations: 0°, 90°, 180°, 270°.
+
+## Experimental requirements
+
+Your experiment must include the following
+
+-   An information and consent sheet.
+-   30 trials in each condition.
+-   A practice block where feedback is given to the participants based on their performance.
+-   Feedback in practice trials should be -- correct/incorrect.
+
+## Trial requirements
+
+-   The interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross -- the length of time the fixation trial is on the screen should vary such that it's offset is unpredictable.
+-   The correct response should be one of four possible; three should be distractors.
+-   The cue, target and distractors should all be presented on the screen at the same time.
+
+## Use your imagination
+
+There are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn't comprehensive; if it isn't specified above -- you can change it.
+
+-   Nature of the stimuli -\> pictures, letters, symbols, abstract shapes, etc.
+-   Similarity of target and distractors.

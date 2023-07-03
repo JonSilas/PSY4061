@@ -1,0 +1,9 @@
+# Pick an Experiment
+
+Choose one of the following experiments to build in PsychoPy. Along with the PsychoPy experiment forming part of your submission, you should also provide a 1200-word summary. The summary should explain what design decisions you have made and why you made them -- specifically what research question are you addressing with your design choices. Also, briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network. You should complete this summary by answering the questions given in the template document.
+
+-   [Erikson Flanker Task](Erikson%20Flanker%20Task.qmd)
+-   [Spatial Cuing Task](Spatial%20Cuing%20Task.qmd)
+-   [Levels of Processing](Levels%20of%20Processing.qmd)
+-   [N-back Task](N-back%20task.qmd)
+-   [Mental Rotation](Mental%20rotation.qmd)

@@ -1,0 +1,89 @@
+# **1** | Hello World
+
+First download the [HelloWorld.zip](PsychoPy/1.Hello World.zip) folder and unpack it, open the folder and open HelloWorld_experiment.psyexp.
+
+This is a very simple 'experiment' (it's not really an experiment). Run the experiment before you start editing it by pressing the play button, entering any participant number and pressing 'ok'. You should see a screen that displays the numbers 3, 2 then 1 - each number is on the screen for one second. Finally, a screen saying 'Hello World (press space to end)' will be shown - press space to finish. Now you know what the experimental file does, it's time to start playing around with it. Feel free to try whatever you want, but below are some things to guide your exploration.
+
+## What you learn
+
+The idea is that making changes to the PsychoPy experiment will help you get a feel of opening, running and modifying PsychoPy experiments. This introductory experiment is aimed at helping you:
+
+* Modifying basic components of loops, routines and components.
+* Getting used to the idea of linking information in the excel file to the PsychoPy experiment. 
+* Changing the Excel file. 
+* Adding new components.
+
+## Things to change
+
+1.\ Change the order of the numbers so they appear in random. 
+`r hide("Hint")`
+```{r,echo = FALSE, results='asis'}
+cat("Check within the 'trials' loop - see what options are available to you when you click on it, what happens when you change these?")
+```
+`r unhide()`
+
+2.\ Make the numbers appear on the screen for only 0.5 seconds. 
+`r hide("Hint")`
+```{r,echo = FALSE, results='asis'}
+cat("Check within the 'count' routine, within there is a component called 'text' - see what options are available to you when you click on it. You can try changing any of these options and see what happens.")
+```
+`r unhide()`
+
+3.\ Add more numbers - count down from 10. 
+`r hide("Hint")`
+```{r,echo = FALSE, results='asis'}
+cat("This is a little less obvious, so don't worry if you are having trouble. In the folder where the experiment file was located there is an Excel file called - 'Trials' - open this up, make some changes, save it and go back to the PsychoPy experiment. You may need to reload the Excel file into PsychoPy this is done from within the 'Trials' loop.")
+```
+`r unhide()`
+
+4.\ Make the numbers stay on the screen until a response from the participant is given.
+`r hide("Hint")`
+```{r,echo = FALSE, results='asis'}
+cat("To do this you will have to modify the duration of the component 'text' within the 'count'routine, and you will also need to add a new response component to the same routine.")
+```
+`r unhide()`
+
+5.\ Change the numbers so that they display traffic light images - red, amber and green. 
+`r hide("Hint")`
+```{r,echo = FALSE, results='asis'}
+cat("This is a bit more involved and really there are a few ways you can do this. You should remove the 'text' component from the 'count' routine. Then you can add an image, or a polygon. If you add an image you will need to make (or find online) three seperate files - red, amber and green - the name of the image should be linked to the Excel file. Alternatively, you can link the colour of a polygon to the Excel file.")
+```
+`r unhide()`
+
+## Test yourself
+
+```{r,echo = FALSE, results = 'asis'}
+question <- "**Question 1** | On the last screen of the experiment you have to press space for the experiment to exit. What column in the data generated for any run of the experiment gives you this reaction time?"
+cat(paste(question, "<br><br>", sep = ""))
+
+cat(fitb(c("key_resp.rt"), ignore_case = TRUE, width = "20"))
+
+```
+
+
+
+```{r, echo = FALSE, results = 'asis'}
+
+opts <- c("0", 
+            "9999", 
+            answer = "'blank'", 
+            "0000")
+
+q1 <- mcq(opts)
+
+cat("**Question 2** | What value should you enter if you want a stimuli to remain on the screen indefinately?","<br><br>", q1)
+```
+
+
+
+```{r, echo = FALSE, results = 'asis'}
+
+opts <- c(answer = "comma", 
+            "semi-colon", 
+            "colon", 
+            "dash")
+
+q1 <- mcq(opts)
+
+cat("**Question 3** | If you wanted to accept multiple different keys in a keyboard response what would you use to deliminate keys? ","<br><br>", q1)
+```
