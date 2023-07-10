@@ -2,6 +2,7 @@ project:
   type: book
 number-sections: false
 book:
+  favicon: images/icon.ico
   title: Designing, Building and Explaining an Experiment
   author: Jon Silas & Alex Jones
   date: last-modified
