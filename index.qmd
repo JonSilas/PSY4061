@@ -11,7 +11,7 @@ You should submit your final functioning PsychoPy experiment as a zipped folder 
 
 **Portfolio submission deadline - 15.04.24 10am**
 
-Submit on MyLearning
+[See instructions on how to submit your work here](Submit.qmd)
 :::
 
 For this part of your assessment you will have to design and build a functioning behavioural experiment in a program called **PsychoPy**. The section [Using PsychoPy](Using%20PsychoPy.qmd) is designed to get you using PsychoPy and help you get comfortable enough to build your own experiment. Once you've gone through the introductory experiments check out the [Pick an Experiment](PickAnExperiment.qmd) section - you will need to choose one of these experiments to build in PsychoPy.
