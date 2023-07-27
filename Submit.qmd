@@ -1,0 +1,18 @@
+# How to Submit
+::: {.callout-important collapse="False" title="Portfolio Deadline"}
+**You should submit your portfolio and your experiment no later than April 15th 2024, 10am**
+:::
+## Written component
+
+Your final portfolio accounts for 80% of your grade for this module. Your write up of your experiment should form part of your portfolio that should be submitted as one document on MyLearning [here](https://mdx.mrooms.net/mod/turnitintooltwo/view.php?id=2620188) (log in to MyLearning required)
+
+## Experiment
+As part of your portfolio you should also submit your experiment built in PsychoPy. To do so you should zip your folder ([help on how to zip a file](https://www.softwaretestinghelp.com/how-to-zip-and-unzip-files/)) and upload your compressed folder to MyLearning [here](https://mdx.mrooms.net/mod/assign/view.php?id=2769426). 
+
+Your folder should include:  
+- A PsychoPy experiment file  
+- A spreadsheet for trials and blocks.  
+- A readme file with a brief outline of the experiment.  
+- Any stimuli needed for your experiment to run.  
+
+Your experiment should be standalone - the folder should contain everything needed to run the experiment (except an installation of PsychoPy)

@@ -14,6 +14,7 @@ book:
   - twitter
   - linkedin
   sidebar:
+    collapse-level: 1
     tools:
       - icon: github
         href: https://github.com/JonSilas/PSY4061
@@ -35,6 +36,7 @@ book:
     - N-back task.qmd
     - Mental rotation.qmd
   - Explain.qmd
+  - Submit.qmd
   - Resources.qmd
   - references.qmd
 title-block-banner: true
