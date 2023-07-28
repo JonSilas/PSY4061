@@ -14,7 +14,7 @@ You should submit your final functioning PsychoPy experiment as a zipped folder 
 [See instructions on how to submit your work here](Submit.qmd)
 :::
 
-For this part of your assessment you will have to design and build a functioning behavioural experiment in a program called **PsychoPy**. The section [Using PsychoPy](Using%20PsychoPy.qmd) is designed to get you using PsychoPy and help you get comfortable enough to build your own experiment. Once you've gone through the introductory experiments check out the [Pick an Experiment](PickAnExperiment.qmd) section - you will need to choose one of these experiments to build in PsychoPy.
+For this part of your assessment you will have to design and build a functioning behavioural experiment in a program called **PsychoPy**. The section [Using PsychoPy](Using%20PsychoPy.qmd) is designed to get you using PsychoPy and help you get comfortable enough to build your own experiment. Once you've gone through the introductory tutorials check out the [Pick an Experiment](PickAnExperiment.qmd) section - you will need to choose one of these experiments to build in PsychoPy as part of your assessment.
 
 As well as building your experiment, you will also need to explain your experiment. You will need to write 1200 words, following the guidelines outlined in the [Explain Your Experiment](Explain.qmd) section.
 
@@ -22,13 +22,13 @@ The resources and support in this online guide should be used in conjunction wit
 
 ## How to use this book/website
 
-For the most part you should go through this book in a linear fashion; page-by-page. You can skip forward one page at a time by using the arrow key at the bottom right of each page. If you need to come back to some of the information here you can use it as any website and the search bar - on the left - should help you find anything you are looking for.
+For the most part you should go through this book in a linear fashion; page-by-page. You can skip forward one page at a time by using the arrow key at the bottom right of each page. If you need to come back to some of the information here, you this as you would any website;  the search bar - on the left - should help you find anything you are looking for. For the most part, this website works best on a computer not on a phone or tablet. 
 
 There are three many parts to this book:
 
 -   [Using PsychoPy](Using%20PsychoPy.qmd) - Each chapter in this part is an exercise with activities and mini-quizzes for you to work through, aimed at getting you using and exploring PsychoPy.
 
--   [Pick an Experiment](PickAnExperiment.qmd) - Each chapter is one possible experiment for you to choose to design and explain for your assessment; you don't need to read all of these but you should skim them to get a feel of which one you want to build and read that one in more detail.
+-   [Pick an Experiment](PickAnExperiment.qmd) - Each chapter is one possible experiment for you to choose to design, build and explain for your assessment; you don't need to read all of these but you should skim them to get a feel of which one you want to build then, read that one in more detail.
 
 -   [Explain Your Experiment](Explain.qmd) - This section outlines what is required from you when you write up an explanation for your experiment that you've built.
 

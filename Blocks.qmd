@@ -1,4 +1,4 @@
-# **5** | Blocks
+# 5 | Blocks{.unnumbered} 
 
 First, download the [Blocks.zip](PsychoPy/5.Blocks.zip) folder and unpack it, then open the folder and open the 'Blocks.psyexp' PsychoPy file. 
 

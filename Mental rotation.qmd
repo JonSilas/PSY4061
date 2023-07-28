@@ -1,4 +1,4 @@
-# Mental rotation
+# Mental rotation{.unnumbered} 
 
 This measures an individual's capacity to represent an image and rotate it in their mind. The nature of the stimuli and the complexity of shapes is often found to cause a change in accuracy in reaction times of mental rotation. Typically, an image is presented on the screen and the participant has to chose which of four possible targets is the same as the cue image but rotated in space. Usually, individual differences are reported in mental rotation, but you should focus your experiment on within-subject manipulations. Although the first reported experimental protocol of mental rotation is decades old [@vandenberg1978mental], the task is still used today. 
 

@@ -1,4 +1,4 @@
-# **4** | Branching
+# 4 | Branching{.unnumbered} 
 
 First, download the [Branching.zip](PsychoPy/4.Branching.zip) folder and unpack it, then open the folder and open the 'Branching.psyexp' PsychoPy file. 
 

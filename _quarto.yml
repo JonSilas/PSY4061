@@ -45,10 +45,12 @@ bibliography: references.bib
 toc-title: On this page
 format:
   html:
+
     link-external-newwindow: true
     theme:
       light: flatly
       dark: darkly
+    number-sections: false
     css: include/webex.css
     include-after-body: include/webex.js
   pdf:
