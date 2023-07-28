@@ -1,5 +1,5 @@
 # How to Submit
-::: {.callout-important collapse="False" title="Portfolio Deadline"}
+::: {.callout-important title="Portfolio Deadline"}
 **You should submit your portfolio and your experiment no later than April 15th 2024, 10am**
 :::
 ## Written component

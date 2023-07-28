@@ -1,4 +1,4 @@
-# **1** | Hello World
+# 1 | Hello World {.unnumbered} 
 
 First download the [HelloWorld.zip](PsychoPy/1.Hello World.zip) folder and unpack it, open the folder and open HelloWorld_experiment.psyexp.
 
@@ -18,14 +18,14 @@ The idea is that making changes to the PsychoPy experiment will help you get a f
 1.\ Change the order of the numbers so they appear in random. 
 `r hide("Hint")`
 ```{r,echo = FALSE, results='asis'}
-cat("Check within the 'trials' loop - see what options are available to you when you click on it, what happens when you change these?")
+cat("Click on the 'trials' loop - see what options are available to you when you click on it, what happens when you change these?")
 ```
 `r unhide()`
 
 2.\ Make the numbers appear on the screen for only 0.5 seconds. 
 `r hide("Hint")`
 ```{r,echo = FALSE, results='asis'}
-cat("Check within the 'count' routine, within there is a component called 'text' - see what options are available to you when you click on it. You can try changing any of these options and see what happens.")
+cat("Click on the 'count' routine, within there is a component called 'text' - see what options are available to you when you click on it. You can try changing any of these options and see what happens.")
 ```
 `r unhide()`
 
@@ -46,7 +46,7 @@ cat("To do this you will have to modify the duration of the component 'text' wit
 5.\ Change the numbers so that they display traffic light images - red, amber and green. 
 `r hide("Hint")`
 ```{r,echo = FALSE, results='asis'}
-cat("This is a bit more involved and really there are a few ways you can do this. You should remove the 'text' component from the 'count' routine. Then you can add an image, or a polygon. If you add an image you will need to make (or find online) three seperate files - red, amber and green - the name of the image should be linked to the Excel file. Alternatively, you can link the colour of a polygon to the Excel file.")
+cat("This is a bit more involved and really there are a few ways you can do this. You should remove the 'text' component from the 'count' routine. Then you can add an image, or a polygon. If you add an image you will need to make (or find online) three seperate files - red, amber and green - the name of the image should be linked to the Excel file. Alternatively, you can link the colour of a polygon to the Excel file. Play about - find the most efficient way for you to make it work.")
 ```
 `r unhide()`
 
@@ -59,7 +59,16 @@ cat(paste(question, "<br><br>", sep = ""))
 cat(fitb(c("key_resp.rt"), ignore_case = TRUE, width = "20"))
 
 ```
-
+`r hide("Answer")`
+```{r,echo = FALSE, results='asis'}
+cat("key_resp.rt")
+```
+`r unhide()`
+`r hide("Explain")`
+```{r,echo = FALSE, results='asis'}
+cat("All data generated for an experiment is saved the data folder automatically generated when you run a PsychoPy Experiment. Within that folder - each participant has a spreadsheet, text document and PSYDAT file. Opening the spreadsheet is the easiest way to get a quick overview of the data collected. Within that spreadsheet, components from the experiment have their own column, and names are appended  to indicate  what they reflect. In this case the component is called 'key_resp' and is appended with '.rt' to reflect that data in that column is reaction time.")
+```
+`r unhide()`
 
 
 ```{r, echo = FALSE, results = 'asis'}
@@ -73,7 +82,11 @@ q1 <- mcq(opts)
 
 cat("**Question 2** | What value should you enter if you want a stimuli to remain on the screen indefinately?","<br><br>", q1)
 ```
-
+`r hide("Explain")`
+```{r,echo = FALSE, results='asis'}
+cat("In the 'duration(s)' property of any component you can specify how long that component should appear on the screen for.  If you want, as we often do in an experiment, to wait for a response you can specify that the component is kept on the screen indefinitely by leaving this value blank.")
+```
+`r unhide()`
 
 
 ```{r, echo = FALSE, results = 'asis'}
@@ -87,3 +100,9 @@ q1 <- mcq(opts)
 
 cat("**Question 3** | If you wanted to accept multiple different keys in a keyboard response what would you use to deliminate keys? ","<br><br>", q1)
 ```
+
+`r hide("Explain")`
+```{r,echo = FALSE, results='asis'}
+cat("Sometimes you will need a participant to choose from more than one response, in this case make sure the 'Allowed keys' property of a response component has the keys separated by a comma.")
+```
+`r unhide()`

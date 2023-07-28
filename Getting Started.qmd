@@ -1,4 +1,4 @@
-# **0** | Getting Started 
+# 0 | Getting Started {.unnumbered} 
 
 * Download and install standalone [PsychoPy](https://psychopy.org/download.html) program. 
 * Install PsychoPy on your machine. 

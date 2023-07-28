@@ -1,4 +1,4 @@
-# **3** | Simon Feedback 
+# 3 | Simon Feedback {.unnumbered} 
 
 First, download the [Feedback.zip](PsychoPy/3. Feedback.zip) folder and unpack it, then open the folder and open the 'SimonEffect_feedback.psyexp' PsychoPy file. 
 

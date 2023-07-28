@@ -1,4 +1,4 @@
-# Erikson Flanker Task
+# Erikson Flanker Task{.unnumbered} 
 
 This task was initially developed by @eriksen1974effects and is aimed at quantifying response inhibition. Reaction time and accuracy are said to be dependent upon a participant's ability to inhibit irrelevant information.\
 You will need to build a behavioural flanker task using PsychoPy that conform to the requirements outlined below and allow you to measure reaction and accuracy for each condition.
