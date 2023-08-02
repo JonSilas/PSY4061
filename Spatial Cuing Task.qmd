@@ -1,4 +1,4 @@
-# Spatial Cuing Task{.unnumbered} 
+# Spatial Cuing Task {.unnumbered} 
 
 Allocation of attention to a location in space has classically been explored using a @posner1980attention cueing paradigm. This task can, with small modifications, be used to explore either endogenous (voluntary/top-down) or exogenous (automatic/bottom-up) attentional mechanisms. The key dependant variable for this experiment is reaction time. Using different types of stimuli allows the research to explore questions about attentional resources for specific categories. 
 

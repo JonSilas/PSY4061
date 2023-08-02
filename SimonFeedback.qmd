@@ -2,7 +2,7 @@
 
 First, download the [Feedback.zip](PsychoPy/3. Feedback.zip) folder and unpack it, then open the folder and open the 'SimonEffect_feedback.psyexp' PsychoPy file. 
 
-In this experiment we are again increasing complexity but this time in an incremental fashion - we'll be adding to the Simon Effect from the last experiment. If you run the experiment from scratch you should see that it doesn't work properly - you'll need to fix it as you make changes below. The idea is that after each trial you should be told whether or not you responded correctly. In this experiment we are starting to introduce some very basic code - if you're not familiar with code **don't panic**. We'll introduce some simple snippets of code and you won't need to be an expert to make your own experiment do what you want. 
+In this experiment we are again increasing complexity but this time in an incremental fashion - we'll be adding to the Simon Effect from the last experiment. If you run the experiment from scratch, you should see that it doesn't work properly; it will always tell you that your answer is 'incorrect'. You will need to fix the experiment as you make changes below. The idea is that after each trial you should be told whether or not you responded correctly. In this experiment we are starting to introduce some very basic code - if you're not familiar with code **don't panic**. We'll introduce some simple snippets of code, and you won't need to be an expert to make your own experiment do what you want. 
 
 ## What you learn
 
@@ -15,31 +15,31 @@ Things are getting a little more complicated but we hope playing around here wil
 
 ## Things to change
 
-As we said, the experiment is again looking at the Simon effect - there are 4 trials 2 congruent and 2 incongruent. But if you run the experiment you don't get the appropriate feedback! Let's make some changes so that it works and then experiment a bit further: 
+As we said the experiment is again looking at the Simon effect - there are 4 trials 2 congruent and 2 incongruent. But if you run the experiment you don't get the appropriate feedback! Let's make some changes so that it works and then experiment a bit further: 
 
 1.\ Try to get the feedback working!
 `r hide("Hint 1")`
 ```{r,echo = FALSE, results='asis'}
-cat("You will need to tell PsychoPy what a correct answer is! You can do this in the 'trial' routine, in the 'key_resp' component.")
+cat("You will need to tell PsychoPy what a correct answer is! You can do this in the `trial` routine, in the `key_resp` component.")
 ```
 `r unhide()`
 
 `r hide("Hint 2")`
 ```{r,echo = FALSE, results='asis'}
-cat("The correct response can't be static - rather you will have to reference to a column in the excel spreadsheet")
+cat("The correct response can't be static - rather you will have to reference to a column in the excel spreadsheet.")
 ```
 `r unhide()`
 
 `r hide("Answer")`
 ```{r,echo = FALSE, results='asis'}
-cat("In the 'trial' routine in the 'key_resp' component, go to the 'Data' tab and click 'Store correct'. In the 'Correct answer' box type `$answer`. The open the Excel file called 'trials' add a new column with the headin 'answer' in that column add the correct response expected for each trial. Save and close the excel document - reload it in the trials loop and run the experiment again.")
+cat("In the `trial` routine in the `key_resp` component, go to the `Data` tab and click `Store correct`. In the 'Correct answer' box type `$answer`. Then open the Excel file called `trials` add a new column with the heading `answer` in that column add the correct response expected for each trial. Save and close the excel document - reload it in the `trials` loop and run the experiment again.")
 ```
 `r unhide()`
 
 2.\ Change the colour and text of the feedback to anything you want. 
 `r hide("Hint 1")`
 ```{r,echo = FALSE, results='asis'}
-cat("Locate the code component in the 'Feedback' routine - open it up and see what you can understand.")
+cat("Locate the code component in the `Feedback` routine - open it up and see what you can understand.")
 ```
 `r unhide()`
 
@@ -59,7 +59,7 @@ cat("This is a hard one - don't give up yet; try googling... seriously, learning
 
 `r hide("Hint 2")`
 ```{r,echo = FALSE, results='asis'}
-cat("Ok, ok - I'll help. Once you've set a timelimit on all components on the 'trial' routine you'll need to change some code. Instead of `if key_resp.corr:` try `if key_resp.corr == 1`. Then think about trying an `elseif` code line.")
+cat("Ok, ok - I'll help. Once you've set a timelimit on all components on the `trial` routine you'll need to change some code. Instead of `if key_resp.corr:` try `if key_resp.corr == 1`. Then think about trying an `elseif` code line.")
 ```
 `r unhide()`
 
@@ -71,12 +71,12 @@ cat("Still a bit tricky, I get it. You can use `and` in `if` functions, you can 
 
 `r hide("Answer")`
 ```{r,echo = FALSE, results='asis'}
-cat("Don't give up - try the PsychoPy forums first!")
+cat("Don't give up! Try the PsychoPy forums first!")
 ```
 `r unhide()`
 
 `r hide("Real answer")`
-It's a tricky one and if you haven't coded before don't feel to disheartened if you didn't get it. You'll need the following code in the 'fb_code_2' component in the 'Begin Routine' tab:
+It's a tricky one and if you haven't coded before don't feel to disheartened if you didn't get it. You'll need the following code in the `Feedback` routine in the `fb_code_2` component in the `Begin Routine` tab, you can copy and paste from the code below to replace what's currently there:
 
 ```{r, eval=FALSE, echo = TRUE}
 if key_resp.corr == 1: 
@@ -116,7 +116,7 @@ You can move any component up or down by right clicking on the component and sel
 ## Test yourself
 
 ```{r,echo = FALSE, results = 'asis'}
-question <- "**Question 1** | In a code chunk, is the name of the coding language used to programme PsychoPy?"
+question <- "**Question 1** | In a code chunk, what is the name of the coding language used to programme PsychoPy?"
 cat(paste(question, "<br><br>", sep = ""))
 
 cat(fitb(c("Python"), ignore_case = TRUE, width = "20"))
@@ -134,12 +134,11 @@ q1 <- mcq(opts)
 
 cat("**Question 2** | What charachter is used to 'comment out' text?","<br><br>", q1)
 ```
-`r hide("Explain this answer")`
+`r hide("Explain")`
 ```{r,echo = FALSE, results='asis'}
 cat("When coding it's good practice to annotate your code so other people find it easier to understand and you will remember what you did better. Leave comments in code chunks within PsychoPy by using '#'")
 ```
 `r unhide()`
-
 
 
 ```{r,echo = FALSE, results = 'asis'}

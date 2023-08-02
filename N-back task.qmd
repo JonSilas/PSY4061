@@ -1,4 +1,4 @@
-# N-back task{.unnumbered} 
+# N-back task {.unnumbered} 
 
 The n-back task is a classical assessment of working memory capacity. Initially developed by @kirchner1958age, the task presents a continuous stream of stimuli, and the participant must identify when the same stimulus (or stimulus belonging to the same category) is presented *n* steps earlier in the sequence.
 

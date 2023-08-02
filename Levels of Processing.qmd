@@ -1,4 +1,4 @@
-# Levels of Processing{.unnumbered} 
+# Levels of Processing {.unnumbered} 
 
 The Levels of Processing Framework [@craik1975depth] suggests that words are better encoded and hence remembered when they are processed more 'deeply'. For the most part, 'deep' processing is associated with semantic processing whereas 'shallow' processing is associated with perceptual encoding of the stimuli. The key manipulation in this experiment is the instructions given to participants when they are looking at the to-be-remembered words (i.e., during encoding).
 
