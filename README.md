@@ -1,7 +1,7 @@
 # PSY4061 - Practical Cognitive Neuroscience - Designing, Building and Explaining an Experiment
 Files associated with one assessment for PSY4061 module Middlesex University - [Cogntive & Clinical Neuroscience MSc](https://www.mdx.ac.uk/courses/postgraduate/cognitive-clinical-neuroscience). 
 
-These files build an online [book](https://jonsilas.quarto.pub/designing-building-and-explaining-an-experiment/) that are aimed at helping students learn how to navigate PsychoPy and build there own assessment. 
+These files build an online [book](https://jonsilas.github.io/PSY4061/) that are aimed at helping students learn how to navigate PsychoPy and build there own assessment. 
 
 The idea is that with the help of this book and instructors in the class you should be in a good position to pass the assesssment component for the module. 
 
