@@ -2,6 +2,8 @@ project:
   type: book
 number-sections: false
 book:
+  google-analytics:
+    tracking-id: "G-28CK13KEDC"
   favicon: images/icon.ico
   title: Designing, Building and Explaining an Experiment
   author: Jon Silas & Alex Jones
