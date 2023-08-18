@@ -22,9 +22,9 @@ The resources and support in this online guide should be used in conjunction wit
 
 ## How to use this book/website
 
-For the most part you should go through this book in a linear fashion; page-by-page. You can skip forward one page at a time by using the arrow key at the bottom right of each page. If you need to come back to some of the information here, you this as you would any website;  the search bar - on the left - should help you find anything you are looking for. This website works best on a computer not on a phone or tablet. 
+For the most part you should go through this book in a linear fashion; page-by-page. You can skip forward one page at a time by using the arrow key at the bottom right of each page. If you need to come back to some of the information here, use this as you would any website;  the search bar - on the left - should help you find anything you are looking for. This website works best on a computer not on a phone or tablet. 
 
-There are three many parts to this book:
+There are three parts to this book:
 
 -   [Using PsychoPy](Using%20PsychoPy.qmd) - Each chapter in this part is an exercise with activities and mini-quizzes for you to work through, aimed at getting you using and exploring PsychoPy.
 
