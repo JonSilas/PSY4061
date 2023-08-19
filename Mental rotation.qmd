@@ -27,7 +27,7 @@ Your experiment must include the following
 
 ## Use your imagination
 
-There are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn't comprehensive; if it isn't specified above -- you can change it.
+There are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of some things you can change but it isn't comprehensive; if it isn't specified above -- you can change it.
 
 -   Nature of the stimuli -\> pictures, letters, symbols, abstract shapes, etc.
 -   Similarity of target and distractors.
