@@ -1,6 +1,6 @@
 # Resources
 
-There are multiple sources of information that you should use to help you along your journey to designing building
+There are multiple sources of information that you should use to help you along your journey to designing building building and explaining an experiment in PsychoPy. Here are some we've listed but make sure you look for your own too.
 
 ## PsychoPy Specific
 

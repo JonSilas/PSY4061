@@ -41,7 +41,9 @@ book:
   - Submit.qmd
   - Resources.qmd
   - references.qmd
-title-block-banner: true
+title-block-banner: "Tomato"
+title-block-banner-color: "black" 
+
 csl: apa.csl
 bibliography: references.bib
 toc-title: On this page
