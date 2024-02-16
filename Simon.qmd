@@ -105,7 +105,7 @@ cat("**Question 3** | If you want any property of a component to change on a tri
 question <- "**Question 4** | What is the name of the column in your data that tells you if a response was correct or not?"
 cat(paste(question, "<br><br>", sep = ""))
 
-cat(fitb(c("key_resp.rt"), ignore_case = TRUE, width = "20"))
+cat(fitb(c("key_resp.corr"), ignore_case = TRUE, width = "20"))
 
 ```
 `r hide("Answer")`
