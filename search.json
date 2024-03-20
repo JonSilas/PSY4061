@@ -4,363 +4,685 @@
     "href": "index.html",
     "title": "Designing, Building and Explaining an Experiment",
     "section": "",
-    "text": "Introduction\nThis is a companion guide to the module PSY4061 Practical Cognitive Neuroscience and is aimed specifically at helping you with the component of the portfolio linked to ‘Designing, Building and Explaining an Experiment’. Your portfolio is worth 80% of your grade and Designing, Building and Explaining an Experiment is worth 40% of the portfolio.\nFor this part of your assessment you will have to design and build a functioning behavioural experiment in a program called PsychoPy. The section Using PsychoPy is designed to get you using PsychoPy and help you get comfortable enough to build your own experiment. Once you’ve gone through the introductory tutorials check out the Pick an Experiment section - you will need to choose one of these experiments to build in PsychoPy as part of your assessment.\nAs well as building your experiment, you will also need to explain your experiment. You will need to write 1200 words, following the guidelines outlined in the Explain Your Experiment section.\nThe resources and support in this online guide should be used in conjunction with the other forms of support available to you; in-class, via email and in one-to-ones with the module leaders. This whole guide can be downloaded as a PDF or word document by clicking the download button in the menu and selecting your preferred format."
+    "text": "Introduction\nThis is a companion guide to the module PSY4061 Practical Cognitive Neuroscience and is aimed specifically at helping you with the component of the portfolio linked to ‘Designing, Building and Explaining an Experiment’. Your portfolio is worth 80% of your grade and Designing, Building and Explaining an Experiment is worth 40% of the portfolio.\nFor this part of your assessment you will have to design and build a functioning behavioural experiment in a program called PsychoPy. The section Using PsychoPy is designed to get you using PsychoPy and help you get comfortable enough to build your own experiment. Once you’ve gone through the introductory tutorials check out the Pick an Experiment section - you will need to choose one of these experiments to build in PsychoPy as part of your assessment.\nAs well as building your experiment, you will also need to explain your experiment. You will need to write 1200 words, following the guidelines outlined in the Explain Your Experiment section.\nThe resources and support in this online guide should be used in conjunction with the other forms of support available to you; in-class, via email and in one-to-ones with the module leaders. This whole guide can be downloaded as a PDF or word document by clicking the download button in the menu and selecting your preferred format.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   },
   {
     "objectID": "index.html#how-to-use-this-bookwebsite",
     "href": "index.html#how-to-use-this-bookwebsite",
     "title": "Designing, Building and Explaining an Experiment",
     "section": "How to use this book/website",
-    "text": "How to use this book/website\nFor the most part you should go through this book in a linear fashion; page-by-page. You can skip forward one page at a time by using the arrow key at the bottom right of each page. If you need to come back to some of the information here, use this as you would any website; the search bar - on the left - should help you find anything you are looking for. This website works best on a computer not on a phone or tablet.\nThere are three parts to this book:\n\nUsing PsychoPy - Each chapter in this part is an exercise with activities and mini-quizzes for you to work through, aimed at getting you using and exploring PsychoPy.\nPick an Experiment - Each chapter is one possible experiment for you to choose to design, build and explain for your assessment; you don’t need to read all of these but you should skim them to get a feel of which one you want to build then, read that one in more detail.\nExplain Your Experiment - This section outlines what is required from you when you write up an explanation for your experiment that you’ve built.\n\nYou might also find the icons in the navigation bar helpful:\n\n\n\n\n\n\n\n\n\nLink to github code for this book.\n\n\n\nClick to download this book as a .pdf, .docx, or .epub file.\n\n\n\nClick to share to the link to the book with others.\n\n\n\nClick to switch between light and dark mode.\n\n\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    "text": "How to use this book/website\nFor the most part you should go through this book in a linear fashion; page-by-page. You can skip forward one page at a time by using the arrow key at the bottom right of each page. If you need to come back to some of the information here, use this as you would any website; the search bar - on the left - should help you find anything you are looking for. This website works best on a computer not on a phone or tablet.\nThere are three parts to this book:\n\nUsing PsychoPy - Each chapter in this part is an exercise with activities and mini-quizzes for you to work through, aimed at getting you using and exploring PsychoPy.\nPick an Experiment - Each chapter is one possible experiment for you to choose to design, build and explain for your assessment; you don’t need to read all of these but you should skim them to get a feel of which one you want to build then, read that one in more detail.\nExplain Your Experiment - This section outlines what is required from you when you write up an explanation for your experiment that you’ve built.\n\nYou might also find the icons in the navigation bar helpful:\n\n\n\n\n\n\n\n\nLink to github code for this book.\n\n\n\nClick to download this book as a .pdf, .docx, or .epub file.\n\n\n\nClick to share to the link to the book with others.\n\n\n\nClick to switch between light and dark mode.\n\n\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   },
   {
-    "objectID": "Using PsychoPy.html#introducion",
-    "href": "Using PsychoPy.html#introducion",
+    "objectID": "Using PsychoPy.html",
+    "href": "Using PsychoPy.html",
     "title": "Using PsychoPy",
-    "section": "Introducion",
-    "text": "Introducion\nPsychoPy® is a free cross-platform package developed by psychologists at the University of Nottingham. It allows you to build and run a wide range of psychological computer based experiments. The program is stand alone - you can download and run it on Windows, Mac OS or linux, without anything else - and it can be used almost entirely without having to learn how to code (however, it does help). PsychoPy is based on the programming language Python - whilst there are many different programming languages, all with different specific uses, issues and benefits, Python is increasingly the most commonly used language in the scientific community, world wide."
+    "section": "",
+    "text": "Introducion\nPsychoPy® is a free cross-platform package developed by psychologists at the University of Nottingham. It allows you to build and run a wide range of psychological computer based experiments. The program is stand alone - you can download and run it on Windows, Mac OS or linux, without anything else - and it can be used almost entirely without having to learn how to code (however, it does help). PsychoPy is based on the programming language Python - whilst there are many different programming languages, all with different specific uses, issues and benefits, Python is increasingly the most commonly used language in the scientific community, world wide.",
+    "crumbs": [
+      "Using PsychoPy"
+    ]
   },
   {
     "objectID": "Using PsychoPy.html#teaching-and-learning",
     "href": "Using PsychoPy.html#teaching-and-learning",
     "title": "Using PsychoPy",
     "section": "Teaching and Learning",
-    "text": "Teaching and Learning\nPSY4061 as a module, and the Cognitive & Clinical Neuroscience MSc at Middlesex, doesn’t explicitly teach programming and coding - we think there’s enough neuroscience to get through! But, in this module we would be remiss if we didn’t provide some introduction to the methods cognitive neuroscientists use to build and deploy experiments. If you are keen in continuing in a career within cognitive neuroscience, specifically, or in the research sciences more broadly, we strongly encourage you to develop your Python skills further (and coding skills more generally) - we provide some links to freely available resources you can use to do this (see, Resources section) . If you are more interested in clinical neuroscience or working in the commercial sector - we feel the skills you will learn here will certainly benefit you long term, but you may not want to peruse coding and Python any further."
+    "text": "Teaching and Learning\nPSY4061 as a module, and the Cognitive & Clinical Neuroscience MSc at Middlesex, doesn’t explicitly teach programming and coding - we think there’s enough neuroscience to get through! But, in this module we would be remiss if we didn’t provide some introduction to the methods cognitive neuroscientists use to build and deploy experiments. If you are keen in continuing in a career within cognitive neuroscience, specifically, or in the research sciences more broadly, we strongly encourage you to develop your Python skills further (and coding skills more generally) - we provide some links to freely available resources you can use to do this (see, Resources section) . If you are more interested in clinical neuroscience or working in the commercial sector - we feel the skills you will learn here will certainly benefit you long term, but you may not want to peruse coding and Python any further.",
+    "crumbs": [
+      "Using PsychoPy"
+    ]
   },
   {
     "objectID": "Using PsychoPy.html#beyond-the-code",
     "href": "Using PsychoPy.html#beyond-the-code",
     "title": "Using PsychoPy",
     "section": "Beyond the Code",
-    "text": "Beyond the Code\nWhilst we think there is value in learning a little bit of PsychoPy programming in and among itself, we also think there is broader value to be gained from understanding how cognitive neuroscience implements the test of a theory via experimental research. In line with the ethos of the module - understanding the methods of cognitive neuroscience provides you with greater insight and a more critical view on the claims being made by cognitive neuroscientists in the papers you read. This is why a functioning experiment is not the only part of this assessment, you will also need to explain the underlying principles and theory of your experiment (see Explain your experiment section)."
+    "text": "Beyond the Code\nWhilst we think there is value in learning a little bit of PsychoPy programming in and among itself, we also think there is broader value to be gained from understanding how cognitive neuroscience implements the test of a theory via experimental research. In line with the ethos of the module - understanding the methods of cognitive neuroscience provides you with greater insight and a more critical view on the claims being made by cognitive neuroscientists in the papers you read. This is why a functioning experiment is not the only part of this assessment, you will also need to explain the underlying principles and theory of your experiment (see Explain your experiment section).",
+    "crumbs": [
+      "Using PsychoPy"
+    ]
   },
   {
     "objectID": "Using PsychoPy.html#underlying-method",
     "href": "Using PsychoPy.html#underlying-method",
     "title": "Using PsychoPy",
     "section": "Underlying Method",
-    "text": "Underlying Method\nThere are many different approaches to teaching and learning how to use new software. There are dozens of online tutorials that will take you through, step-by-step how to perform specific functions in any given software. While this can be useful for learning how to execute specific operations in a specific software - we don’t think this approach teaches what we want you to learn - independently and creatively navigating a software and an understanding of the underlying principles as to why you are using and manipulating the software."
+    "text": "Underlying Method\nThere are many different approaches to teaching and learning how to use new software. There are dozens of online tutorials that will take you through, step-by-step how to perform specific functions in any given software. While this can be useful for learning how to execute specific operations in a specific software - we don’t think this approach teaches what we want you to learn - independently and creatively navigating a software and an understanding of the underlying principles as to why you are using and manipulating the software.",
+    "crumbs": [
+      "Using PsychoPy"
+    ]
   },
   {
     "objectID": "Using PsychoPy.html#what-to-do",
     "href": "Using PsychoPy.html#what-to-do",
     "title": "Using PsychoPy",
     "section": "What to do",
-    "text": "What to do\nIn these pages, and in the materials we have created to help you, we haven’t provided any click-by-click guide on how to use PsychoPy, or build your experiment. Rather, in what follows, there are some ready built simple PsychoPy programs. You need to download them and amend them - the idea is that in amending, editing and playing with them creatively, you will become accustomed to manipulating the software and develop the knowledge and skills you need to build your own experiment! Once you have completed the Getteing Started, in the coming sections you should:\n\nDownload the *.zip folder.\nExtract the folder locally to your computer.\nOpen the PsychoPy experiment (*.psypexp).\nThe read-me file will open - follow the instructions to make changes to the PsychoPy program.\nBe creative - you can’t do anything wrong - break and fix and change the basic program as much as you like."
+    "text": "What to do\nIn these pages, and in the materials we have created to help you, we haven’t provided any click-by-click guide on how to use PsychoPy, or build your experiment. Rather, in what follows, there are some ready built simple PsychoPy programs. You need to download them and amend them - the idea is that in amending, editing and playing with them creatively, you will become accustomed to manipulating the software and develop the knowledge and skills you need to build your own experiment! Once you have completed the Getteing Started, in the coming sections you should:\n\nDownload the *.zip folder.\nExtract the folder locally to your computer.\nOpen the PsychoPy experiment (*.psypexp).\nThe read-me file will open - follow the instructions to make changes to the PsychoPy program.\nBe creative - you can’t do anything wrong - break and fix and change the basic program as much as you like.",
+    "crumbs": [
+      "Using PsychoPy"
+    ]
   },
   {
     "objectID": "Using PsychoPy.html#where-to-get-help",
     "href": "Using PsychoPy.html#where-to-get-help",
     "title": "Using PsychoPy",
     "section": "Where to Get Help?",
-    "text": "Where to Get Help?\n\nYou will be given time in class to explore PsychoPy - speak to tutors and get in person support.\nUse the Resources section for online help.\nBook an online or in-person one-to-one session with module leaders."
+    "text": "Where to Get Help?\n\nYou will be given time in class to explore PsychoPy - speak to tutors and get in person support.\nUse the Resources section for online help.\nBook an online or in-person one-to-one session with module leaders.",
+    "crumbs": [
+      "Using PsychoPy"
+    ]
   },
   {
     "objectID": "Getting Started.html",
     "href": "Getting Started.html",
     "title": "0 | Getting Started",
     "section": "",
-    "text": "Download and install standalone PsychoPy program.\nInstall PsychoPy on your machine.\nExplore some of the demos automatically installed as part of the package or work your way through the tutorials in the coming chapters."
+    "text": "Download and install standalone PsychoPy program.\nInstall PsychoPy on your machine.\nExplore some of the demos automatically installed as part of the package or work your way through the tutorials in the coming chapters.",
+    "crumbs": [
+      "Using PsychoPy",
+      "0 | Getting Started"
+    ]
+  },
+  {
+    "objectID": "1.0_HelloWorld.html",
+    "href": "1.0_HelloWorld.html",
+    "title": "1 | Hello World",
+    "section": "",
+    "text": "What you learn\nThe idea is that making changes to the PsychoPy experiment will help you get a feel of opening, running and modifying PsychoPy experiments. This introductory experiment is aimed at helping you:",
+    "crumbs": [
+      "Using PsychoPy",
+      "1 | Hello World"
+    ]
   },
   {
     "objectID": "1.0_HelloWorld.html#what-you-learn",
     "href": "1.0_HelloWorld.html#what-you-learn",
     "title": "1 | Hello World",
-    "section": "What you learn",
-    "text": "What you learn\nThe idea is that making changes to the PsychoPy experiment will help you get a feel of opening, running and modifying PsychoPy experiments. This introductory experiment is aimed at helping you:\n\nModifying basic components of loops, routines and components.\nGetting used to the idea of linking information in the excel file to the PsychoPy experiment.\nChanging the Excel file.\nAdding new components."
+    "section": "",
+    "text": "Modifying basic components of loops, routines and components.\nGetting used to the idea of linking information in the excel file to the PsychoPy experiment.\nChanging the Excel file.\nAdding new components.",
+    "crumbs": [
+      "Using PsychoPy",
+      "1 | Hello World"
+    ]
   },
   {
     "objectID": "1.0_HelloWorld.html#things-to-change",
     "href": "1.0_HelloWorld.html#things-to-change",
     "title": "1 | Hello World",
     "section": "Things to change",
-    "text": "Things to change\n1. Change the order of the numbers so they appear in random.\n\n\nHint\n\nClick on the trials loop - see what options are available to you when you click on it, what happens when you change these?\n\n2. Make the numbers appear on the screen for only 0.5 seconds.\n\n\nHint\n\nClick on the count routine, within there is a component called text - see what options are available to you when you click on it. You can try changing any of these options and see what happens.\n\n3. Add more numbers - count down from 10.\n\n\nHint\n\nThis is a little less obvious, so don’t worry if you are having trouble. In the folder where the experiment file was located there is an Excel file called - ‘Trials’ - open this up, make some changes, save it and go back to the PsychoPy experiment. You may need to reload the Excel file into PsychoPy this is done from within the Trials loop.\n\n4. Make the numbers stay on the screen until a response from the participant is given.\n\n\nHint\n\nTo do this you will have to modify the duration of the component text within the count routine, and you will also need to add a new response component to the same routine.\n\n5. Change the numbers so that they display traffic light images - red, amber and green.\n\n\nHint\n\nThis is a bit more involved and really there are a few ways you can do this. You should remove the text component from the count routine. Then you can add an image, or a polygon. If you add an image you will need to make (or find online) three seperate files - red, amber and green - the name of the image should be linked to the Excel file. Alternatively, you can link the colour of a polygon to the Excel file. Play about - find the most efficient way for you to make it work."
+    "text": "Things to change\n1. Change the order of the numbers so they appear in random.\n\n\nHint\n\nClick on the trials loop - see what options are available to you when you click on it, what happens when you change these?\n\n2. Make the numbers appear on the screen for only 0.5 seconds.\n\n\nHint\n\nClick on the count routine, within there is a component called text - see what options are available to you when you click on it. You can try changing any of these options and see what happens.\n\n3. Add more numbers - count down from 10.\n\n\nHint\n\nThis is a little less obvious, so don’t worry if you are having trouble. In the folder where the experiment file was located there is an Excel file called - ‘Trials’ - open this up, make some changes, save it and go back to the PsychoPy experiment. You may need to reload the Excel file into PsychoPy this is done from within the Trials loop.\n\n4. Make the numbers stay on the screen until a response from the participant is given.\n\n\nHint\n\nTo do this you will have to modify the duration of the component text within the count routine, and you will also need to add a new response component to the same routine.\n\n5. Change the numbers so that they display traffic light images - red, amber and green.\n\n\nHint\n\nThis is a bit more involved and really there are a few ways you can do this. You should remove the text component from the count routine. Then you can add an image, or a polygon. If you add an image you will need to make (or find online) three seperate files - red, amber and green - the name of the image should be linked to the Excel file. Alternatively, you can link the colour of a polygon to the Excel file. Play about - find the most efficient way for you to make it work.",
+    "crumbs": [
+      "Using PsychoPy",
+      "1 | Hello World"
+    ]
   },
   {
     "objectID": "1.0_HelloWorld.html#test-yourself",
     "href": "1.0_HelloWorld.html#test-yourself",
     "title": "1 | Hello World",
     "section": "Test yourself",
-    "text": "Test yourself\nQuestion 1 | On the last screen of the experiment you have to press space for the experiment to exit. What column in the data generated for any run of the experiment gives you this reaction time?\n\n\nAnswer\n\nkey_resp.rt\n\n\n\nExplain\n\nAll data generated for an experiment is saved the data folder automatically generated when you run a PsychoPy Experiment. Within that folder - each participant has a spreadsheet, text document and PSYDAT file. Opening the spreadsheet is the easiest way to get a quick overview of the data collected. Within that spreadsheet, components from the experiment have their own column, and names are appended to indicate what they reflect. In this case the component is called key_resp and is appended with .rt to reflect that data in that column is reaction time.\n\nQuestion 2 | What value should you enter if you want a stimuli to remain on the screen indefinately?  09999‘blank’0000\n\n\nExplain\n\nIn the duration (s) property of any component you can specify how long that component should appear on the screen for. If you want, as we often do in an experiment, to wait for a response you can specify that the component is kept on the screen indefinitely by leaving this value blank.\n\nQuestion 3 | If you wanted to accept multiple different keys in a keyboard response what would you use to deliminate keys?  commasemi-coloncolondash\n\n\nExplain\n\nSometimes you will need a participant to choose from more than one response, in this case make sure the ‘Allowed keys’ property of a response component has the keys separated by a comma."
+    "text": "Test yourself\nQuestion 1 | On the last screen of the experiment you have to press space for the experiment to exit. What column in the data generated for any run of the experiment gives you this reaction time?\n\n\nAnswer\n\nkey_resp.rt\n\n\n\nExplain\n\nAll data generated for an experiment is saved the data folder automatically generated when you run a PsychoPy Experiment. Within that folder - each participant has a spreadsheet, text document and PSYDAT file. Opening the spreadsheet is the easiest way to get a quick overview of the data collected. Within that spreadsheet, components from the experiment have their own column, and names are appended to indicate what they reflect. In this case the component is called key_resp and is appended with .rt to reflect that data in that column is reaction time.\n\nQuestion 2 | What value should you enter if you want a stimuli to remain on the screen indefinately?  09999‘blank’0000\n\n\nExplain\n\nIn the duration (s) property of any component you can specify how long that component should appear on the screen for. If you want, as we often do in an experiment, to wait for a response you can specify that the component is kept on the screen indefinitely by leaving this value blank.\n\nQuestion 3 | If you wanted to accept multiple different keys in a keyboard response what would you use to deliminate keys?  commasemi-coloncolondash\n\n\nExplain\n\nSometimes you will need a participant to choose from more than one response, in this case make sure the ‘Allowed keys’ property of a response component has the keys separated by a comma.",
+    "crumbs": [
+      "Using PsychoPy",
+      "1 | Hello World"
+    ]
+  },
+  {
+    "objectID": "Simon.html",
+    "href": "Simon.html",
+    "title": "2 | Simon Experiment",
+    "section": "",
+    "text": "What you learn\nThe idea is that making changes to the PsychoPy experiment will help you get a feel of changing parameters within components, routines and loops. This introductory experiment is aimed at helping you to get better at:",
+    "crumbs": [
+      "Using PsychoPy",
+      "2 | Simon Experiment"
+    ]
   },
   {
     "objectID": "Simon.html#what-you-learn",
     "href": "Simon.html#what-you-learn",
     "title": "2 | Simon Experiment",
-    "section": "What you learn",
-    "text": "What you learn\nThe idea is that making changes to the PsychoPy experiment will help you get a feel of changing parameters within components, routines and loops. This introductory experiment is aimed at helping you to get better at:\n\nModifying components of loops, routines and components.\nModifying Excel file to result in changes in the experiment.\nModifying routine’s length.\nAdding correct answers."
+    "section": "",
+    "text": "Modifying components of loops, routines and components.\nModifying Excel file to result in changes in the experiment.\nModifying routine’s length.\nAdding correct answers.",
+    "crumbs": [
+      "Using PsychoPy",
+      "2 | Simon Experiment"
+    ]
   },
   {
     "objectID": "Simon.html#things-to-change",
     "href": "Simon.html#things-to-change",
     "title": "2 | Simon Experiment",
     "section": "Things to change",
-    "text": "Things to change\nLet’s see if you can make a few changes and perhaps even get some simple data to look at.\n1. Can you add two trials in the ‘incongruent’ condition - so that a red circle appears on the right in one trial and a green circle on the left in another trial?\n\n\nHint\n\nYou will need to modify the Excel file, save it, and upload it again to the trials loop. You want two more trials that are in effect the opposite of what you see for the congruent trials - label them as incongruent.\n\n2. Once you’ve added more conditions, make sure they appear in a random order and add more repetitions of trials; so that the number of trials per condition repeat - set it for 5 repetitions per condition.\n\n\nHint\n\nYou can change all of this by manipulating the properties of the trials loop.\n\n\n\nAnswer\n\nWithin the properties of the ‘trials’ loop, change loopType to random and change nReps to 5.\n\n3. At the moment the stimuli stay on the screen until a response. To increase errors and speed up responses can you set a time limit so that the participant only has 2 seconds to respond?\n\n\nHint\n\nYou can change all of this by manipulating the properties of the components within the trial routine.\n\n\n\nAnswer\n\nClick on the key_resp component within the trial routine.Change duation (s) to 2.\n\n4. Can you manipulate the key_resp component in the trial routine so that it stores the correct answer?\n\n\nHint\n\nAs well as modifying the properties in key_resp Data tab, you will also have to make some changes to the spreadsheet so that you can identify what response is correct in any given condition.\n\n\n\nAnswer\n\nIn the excel spreadsheet add a new column called correct include in there the correct key response for each trial. In the Data tab of the key_resp component, click Store correct and enter $ followed by the name of your column in the Correct answer field."
+    "text": "Things to change\nLet’s see if you can make a few changes and perhaps even get some simple data to look at.\n1. Can you add two trials in the ‘incongruent’ condition - so that a red circle appears on the right in one trial and a green circle on the left in another trial?\n\n\nHint\n\nYou will need to modify the Excel file, save it, and upload it again to the trials loop. You want two more trials that are in effect the opposite of what you see for the congruent trials - label them as incongruent.\n\n2. Once you’ve added more conditions, make sure they appear in a random order and add more repetitions of trials; so that the number of trials per condition repeat - set it for 5 repetitions per condition.\n\n\nHint\n\nYou can change all of this by manipulating the properties of the trials loop.\n\n\n\nAnswer\n\nWithin the properties of the ‘trials’ loop, change loopType to random and change nReps to 5.\n\n3. At the moment the stimuli stay on the screen until a response. To increase errors and speed up responses can you set a time limit so that the participant only has 2 seconds to respond?\n\n\nHint\n\nYou can change all of this by manipulating the properties of the components within the trial routine.\n\n\n\nAnswer\n\nClick on the key_resp component within the trial routine.Change duation (s) to 2.\n\n4. Can you manipulate the key_resp component in the trial routine so that it stores the correct answer?\n\n\nHint\n\nAs well as modifying the properties in key_resp Data tab, you will also have to make some changes to the spreadsheet so that you can identify what response is correct in any given condition.\n\n\n\nAnswer\n\nIn the excel spreadsheet add a new column called correct include in there the correct key response for each trial. In the Data tab of the key_resp component, click Store correct and enter $ followed by the name of your column in the Correct answer field.",
+    "crumbs": [
+      "Using PsychoPy",
+      "2 | Simon Experiment"
+    ]
   },
   {
     "objectID": "Simon.html#test-yourself",
     "href": "Simon.html#test-yourself",
     "title": "2 | Simon Experiment",
     "section": "Test yourself",
-    "text": "Test yourself\nQuestion 1 | If you wanted to allow the letters p and q as a response (instead of a and k) what would you type in the ‘Allowed keys’ section of the response properties?  ‘q’, ‘p’‘q,p’‘q-p’Q,P\nQuestion 2 | In the trial component, the left_stim and right_stim components get their colour from the spreadsheet. What symbol tell PsychoPy that the colour is listed in the spreadsheet?  #£&$\nQuestion 3 | If you want any property of a component to change on a trial-by-trial basis which of the following should you select?  ConstantSet every frameSet every repeat\nQuestion 4 | What is the name of the column in your data that tells you if a response was correct or not?\n\n\nAnswer\n\nkey_resp.corr\n\n\n\nExplain\n\nOnce you’ve correctly allowed PsychoPy to know what a correct reponse is (see ‘what to change’ point 4)"
+    "text": "Test yourself\nQuestion 1 | If you wanted to allow the letters p and q as a response (instead of a and k) what would you type in the ‘Allowed keys’ section of the response properties?  ‘q’, ‘p’‘q,p’‘q-p’Q,P\nQuestion 2 | In the trial component, the left_stim and right_stim components get their colour from the spreadsheet. What symbol tell PsychoPy that the colour is listed in the spreadsheet?  #£&$\nQuestion 3 | If you want any property of a component to change on a trial-by-trial basis which of the following should you select?  ConstantSet every frameSet every repeat\nQuestion 4 | What is the name of the column in your data that tells you if a response was correct or not?\n\n\nAnswer\n\nkey_resp.corr\n\n\n\nExplain\n\nOnce you’ve correctly allowed PsychoPy to know what a correct reponse is (see ‘what to change’ point 4)",
+    "crumbs": [
+      "Using PsychoPy",
+      "2 | Simon Experiment"
+    ]
+  },
+  {
+    "objectID": "SimonFeedback.html",
+    "href": "SimonFeedback.html",
+    "title": "3 | Simon Feedback",
+    "section": "",
+    "text": "What you learn\nThings are getting a little more complicated but we hope playing around here will teach you the following:",
+    "crumbs": [
+      "Using PsychoPy",
+      "3 | Simon Feedback"
+    ]
   },
   {
     "objectID": "SimonFeedback.html#what-you-learn",
     "href": "SimonFeedback.html#what-you-learn",
     "title": "3 | Simon Feedback",
-    "section": "What you learn",
-    "text": "What you learn\nThings are getting a little more complicated but we hope playing around here will teach you the following:\n\nHow to insert code components.\nHow to modify basic code and even write some of your own.\nHow to implement basic feedback.\nIntroduction into troubleshooting."
+    "section": "",
+    "text": "How to insert code components.\nHow to modify basic code and even write some of your own.\nHow to implement basic feedback.\nIntroduction into troubleshooting.",
+    "crumbs": [
+      "Using PsychoPy",
+      "3 | Simon Feedback"
+    ]
   },
   {
     "objectID": "SimonFeedback.html#things-to-change",
     "href": "SimonFeedback.html#things-to-change",
     "title": "3 | Simon Feedback",
     "section": "Things to change",
-    "text": "Things to change\nAs we said the experiment is again looking at the Simon effect - there are 4 trials 2 congruent and 2 incongruent. But if you run the experiment you don’t get the appropriate feedback! Let’s make some changes so that it works and then experiment a bit further:\n1. Try to get the feedback working!\n\n\nHint 1\n\nYou will need to tell PsychoPy what a correct answer is! You can do this in the trial routine, in the key_resp component.\n\n\n\nHint 2\n\nThe correct response can’t be static - rather you will have to reference to a column in the excel spreadsheet.\n\n\n\nAnswer\n\nIn the trial routine in the key_resp component, go to the Data tab and click Store correct. In the ‘Correct answer’ box type $answer. Then open the Excel file called trials add a new column with the heading answer in that column add the correct response expected for each trial. Save and close the excel document - reload it in the trials loop and run the experiment again.\n\n2. Change the colour and text of the feedback to anything you want.\n\n\nHint 1\n\nLocate the code component in the Feedback routine - open it up and see what you can understand.\n\n\n\nHint 2\n\nIn the code just try changing fb_text = and the fb_col= what colors does it recognise?\n\n3. Modify the experiment so that you have a time limit to respond in - can you then modify the feedback so it says ‘Too slow!’ if no response was given? (this can be tricky).\n\n\nHint 1\n\nThis is a hard one - don’t give up yet; try googling… seriously, learning how to find the solution to a coding problem yourself by using the internet is a useful skill and can be really satisfying.\n\n\n\nHint 2\n\nOk, ok - I’ll help. Once you’ve set a timelimit on all components on the trial routine you’ll need to change some code. Instead of if key_resp.corr: try if key_resp.corr == 1. Then think about trying an elseif code line.\n\n\n\nHint 3\n\nStill a bit tricky, I get it. You can use and in if functions, you can also use not but that’s expressed like != which effectively means ‘is not’.\n\n\n\nAnswer\n\nDon’t give up! Try the PsychoPy forums first!\n\n\n\nReal answer\n\nIt’s a tricky one and if you haven’t coded before don’t feel to disheartened if you didn’t get it. You’ll need the following code in the Feedback routine in the fb_code_2 component in the Begin Routine tab, you can copy and paste from the code below to replace what’s currently there:\n\nif key_resp.corr == 1: \n  fb_text = \"Correct!\"\n  fb_col =\"green\"\nelif key_resp.corr == 0 and key_resp.keys != None:\n  fb_text = \"Wrong!\"\n  fb_col =\"red\"\nelif key_resp.corr == 0 and key_resp.keys == None:\n  fb_text = \"Too slow!\"\n  fb_col =\"black\"\n\n\n\n\n\n\n\n\nCaution\n\n\n\n\n\nWhen you are adding code that will define the content of text stimuli, as in this experiment, it’s important that the code come before text component like this:\n\nNot after, like this:\n\nYou can move any component up or down by right clicking on the component and selecting any of the ‘move’ options, like this:"
+    "text": "Things to change\nAs we said the experiment is again looking at the Simon effect - there are 4 trials 2 congruent and 2 incongruent. But if you run the experiment you don’t get the appropriate feedback! Let’s make some changes so that it works and then experiment a bit further:\n1. Try to get the feedback working!\n\n\nHint 1\n\nYou will need to tell PsychoPy what a correct answer is! You can do this in the trial routine, in the key_resp component.\n\n\n\nHint 2\n\nThe correct response can’t be static - rather you will have to reference to a column in the excel spreadsheet.\n\n\n\nAnswer\n\nIn the trial routine in the key_resp component, go to the Data tab and click Store correct. In the ‘Correct answer’ box type $answer. Then open the Excel file called trials add a new column with the heading answer in that column add the correct response expected for each trial. Save and close the excel document - reload it in the trials loop and run the experiment again.\n\n2. Change the colour and text of the feedback to anything you want.\n\n\nHint 1\n\nLocate the code component in the Feedback routine - open it up and see what you can understand.\n\n\n\nHint 2\n\nIn the code just try changing fb_text = and the fb_col= what colors does it recognise?\n\n3. Modify the experiment so that you have a time limit to respond in - can you then modify the feedback so it says ‘Too slow!’ if no response was given? (this can be tricky).\n\n\nHint 1\n\nThis is a hard one - don’t give up yet; try googling… seriously, learning how to find the solution to a coding problem yourself by using the internet is a useful skill and can be really satisfying.\n\n\n\nHint 2\n\nOk, ok - I’ll help. Once you’ve set a timelimit on all components on the trial routine you’ll need to change some code. Instead of if key_resp.corr: try if key_resp.corr == 1. Then think about trying an elseif code line.\n\n\n\nHint 3\n\nStill a bit tricky, I get it. You can use and in if functions, you can also use not but that’s expressed like != which effectively means ‘is not’.\n\n\n\nAnswer\n\nDon’t give up! Try the PsychoPy forums first!\n\n\n\nReal answer\n\nIt’s a tricky one and if you haven’t coded before don’t feel to disheartened if you didn’t get it. You’ll need the following code in the Feedback routine in the fb_code_2 component in the Begin Routine tab, you can copy and paste from the code below to replace what’s currently there:\n\nif key_resp.corr == 1: \n  fb_text = \"Correct!\"\n  fb_col =\"green\"\nelif key_resp.corr == 0 and key_resp.keys != None:\n  fb_text = \"Wrong!\"\n  fb_col =\"red\"\nelif key_resp.corr == 0 and key_resp.keys == None:\n  fb_text = \"Too slow!\"\n  fb_col =\"black\"\n\n\n\n\n\n\n\n\nCaution\n\n\n\n\n\nWhen you are adding code that will define the content of text stimuli, as in this experiment, it’s important that the code come before text component like this:\n\nNot after, like this:\n\nYou can move any component up or down by right clicking on the component and selecting any of the ‘move’ options, like this:",
+    "crumbs": [
+      "Using PsychoPy",
+      "3 | Simon Feedback"
+    ]
   },
   {
     "objectID": "SimonFeedback.html#test-yourself",
     "href": "SimonFeedback.html#test-yourself",
     "title": "3 | Simon Feedback",
     "section": "Test yourself",
-    "text": "Test yourself\nQuestion 1 | In a code chunk, what is the name of the coding language used to programme PsychoPy?\nQuestion 2 | What charachter is used to ‘comment out’ text?  &#*%\n\n\nExplain\n\nWhen coding it’s good practice to annotate your code so other people find it easier to understand and you will remember what you did better. Leave comments in code chunks within PsychoPy by using ‘#’\n\nQuestion 3 | What’s the name of the property that you need to change to increase the number of repetitions that a loop will go through?\nIf you need help - speak to instructors in class, check the online guide or contact a member of staff via email."
+    "text": "Test yourself\nQuestion 1 | In a code chunk, what is the name of the coding language used to programme PsychoPy?\nQuestion 2 | What charachter is used to ‘comment out’ text?  &#*%\n\n\nExplain\n\nWhen coding it’s good practice to annotate your code so other people find it easier to understand and you will remember what you did better. Leave comments in code chunks within PsychoPy by using ‘#’\n\nQuestion 3 | What’s the name of the property that you need to change to increase the number of repetitions that a loop will go through?\nIf you need help - speak to instructors in class, check the online guide or contact a member of staff via email.",
+    "crumbs": [
+      "Using PsychoPy",
+      "3 | Simon Feedback"
+    ]
+  },
+  {
+    "objectID": "Branching.html",
+    "href": "Branching.html",
+    "title": "4 | Branching",
+    "section": "",
+    "text": "What you’ll learn\nWe want to increase your comfort with code without having to learn all the specific details. Going through this guide aims to teach you to:",
+    "crumbs": [
+      "Using PsychoPy",
+      "4 | Branching"
+    ]
   },
   {
     "objectID": "Branching.html#what-youll-learn",
     "href": "Branching.html#what-youll-learn",
     "title": "4 | Branching",
-    "section": "What you’ll learn",
-    "text": "What you’ll learn\nWe want to increase your comfort with code without having to learn all the specific details. Going through this guide aims to teach you to:\n\nBecome a little more comfortable with code components in PsychoPy.\nLearn how to ‘branch’ experiments based on responses.\nIncrease your comfort with creating and using an Excel document to reference content in the experiment."
+    "section": "",
+    "text": "Become a little more comfortable with code components in PsychoPy.\nLearn how to ‘branch’ experiments based on responses.\nIncrease your comfort with creating and using an Excel document to reference content in the experiment.",
+    "crumbs": [
+      "Using PsychoPy",
+      "4 | Branching"
+    ]
   },
   {
     "objectID": "Branching.html#things-to-change",
     "href": "Branching.html#things-to-change",
     "title": "4 | Branching",
     "section": "Things to change",
-    "text": "Things to change\n\nMake the appropriate changes to the code and the routines so that when you press C you will see an image of a cat, when you press D you see a picture of a dog and when you press R the instructions repeat.\n\n\n\nHint 1\n\nThink about modifying the nReps of the loops, make them 0 if you want to skip a routine and 1 if you want to include it in the procedure.\n\n\n\nHint 2\n\nOnce you’ve made sure that the nReps in cat and dog can be set by code you need to write an if statement that runs in the start routine.\n\n\n\nHint 3\n\nYour if statement should be in a code component in the start routine. It should ensure that if a certain response is made - stored in key_resp.keys = - then whatever you called the prperty in the nReps field should change. You should also add this in the tab of the code component called End routine\n\n\n\nAnswer\n\nOk first, you need to name nReps for the cat_loop and the dog_loop, let’s call them CatReps and DogReps respectively, then add a Code component to the start routine, in the End routine tab add the following code:\n\nif key_resp.keys == \"d\": \n        CatReps = 0\n        DogReps = 1\n\nif key_resp.keys == \"c\":\n        CatReps = 1 \n        DogReps = 0\n\n\n\nChange the images, draw from a list in an excel document and do so randomly.\n\n\n\nHint 1\n\nThe first part of this hopefully shouildn’t be too tricky, get some new images from the internet, change the image path in the routine to link to the excel file that will have the name of the image file. If you’re getting stuck make sure you’ve instructed the image to set every repeat, insure you’ve included the file type extension correctly.\n\n\n\nHint 2\n\nOnce you’ve managed to read an image from a list and do so randomly, you’ll probably notice that the loop won’t exit till it’s gone through all images. To exit after one loop you’ll need to add some code to both the cat_pic routine and the dog_pic routine. Before you check the solution below try seeing if you can figure it out by using online resources.\n\n\n\nAnswer\n\nOk, first find at least 3 images on the internet of dogs and three of cats - save these to the 4.Branching folder. In the same folder, create a new Excel document for dogs and one for cats, you can call the Excel documents Dogs and Cats respectively. Each Excel document should have one column that should be called DogImages and CatImages in that column list you image file names and include the file type for example catpic1.jpeg. In the PsychoPy experiment load up each Excel document to the appropriate loop. in the dog_pic routine and the cat_pic routine select the image and change the Image property to $DogImages and $CatImages and set it to set every repeat. Finally, in order to exit the loop after one image is shown, add a code component to the routine. In the code component add some code to the End Routine tab this should be dog_loop.finished=True for the dog loop and, cat_loop.finished=True for the cat loop.\n\n\nAdd responses to the images can you add new routines to jump to? Maybe add a goodbye message before the experiment ends?\n\n\n\nHint\n\nThis is the same logic to the code you’ve already written - just make some minor amendments so it can jump to a final screen - you’re welcome to be creative here.\n\n\nCan you set up something useful - could you modify the experiment to have a ‘press y to consent and continue’ or ’press n to refuse consent and exit?\n\n\n\nHint\n\nAgain - use the same logic that you used to get the experiment working - simpply change the letters in the argument and the content of the routines."
+    "text": "Things to change\n\nMake the appropriate changes to the code and the routines so that when you press C you will see an image of a cat, when you press D you see a picture of a dog and when you press R the instructions repeat.\n\n\n\nHint 1\n\nThink about modifying the nReps of the loops, make them 0 if you want to skip a routine and 1 if you want to include it in the procedure.\n\n\n\nHint 2\n\nOnce you’ve made sure that the nReps in cat and dog can be set by code you need to write an if statement that runs in the start routine.\n\n\n\nHint 3\n\nYour if statement should be in a code component in the start routine. It should ensure that if a certain response is made - stored in key_resp.keys = - then whatever you called the prperty in the nReps field should change. You should also add this in the tab of the code component called End routine\n\n\n\nAnswer\n\nOk first, you need to name nReps for the cat_loop and the dog_loop, let’s call them CatReps and DogReps respectively, then add a Code component to the start routine, in the End routine tab add the following code:\n\nif key_resp.keys == \"d\": \n        CatReps = 0\n        DogReps = 1\n\nif key_resp.keys == \"c\":\n        CatReps = 1 \n        DogReps = 0\n\n\n\nChange the images, draw from a list in an excel document and do so randomly.\n\n\n\nHint 1\n\nThe first part of this hopefully shouildn’t be too tricky, get some new images from the internet, change the image path in the routine to link to the excel file that will have the name of the image file. If you’re getting stuck make sure you’ve instructed the image to set every repeat, insure you’ve included the file type extension correctly.\n\n\n\nHint 2\n\nOnce you’ve managed to read an image from a list and do so randomly, you’ll probably notice that the loop won’t exit till it’s gone through all images. To exit after one loop you’ll need to add some code to both the cat_pic routine and the dog_pic routine. Before you check the solution below try seeing if you can figure it out by using online resources.\n\n\n\nAnswer\n\nOk, first find at least 3 images on the internet of dogs and three of cats - save these to the 4.Branching folder. In the same folder, create a new Excel document for dogs and one for cats, you can call the Excel documents Dogs and Cats respectively. Each Excel document should have one column that should be called DogImages and CatImages in that column list you image file names and include the file type for example catpic1.jpeg. In the PsychoPy experiment load up each Excel document to the appropriate loop. in the dog_pic routine and the cat_pic routine select the image and change the Image property to $DogImages and $CatImages and set it to set every repeat. Finally, in order to exit the loop after one image is shown, add a code component to the routine. In the code component add some code to the End Routine tab this should be dog_loop.finished=True for the dog loop and, cat_loop.finished=True for the cat loop.\n\n\nAdd responses to the images can you add new routines to jump to? Maybe add a goodbye message before the experiment ends?\n\n\n\nHint\n\nThis is the same logic to the code you’ve already written - just make some minor amendments so it can jump to a final screen - you’re welcome to be creative here.\n\n\nCan you set up something useful - could you modify the experiment to have a ‘press y to consent and continue’ or ’press n to refuse consent and exit?\n\n\n\nHint\n\nAgain - use the same logic that you used to get the experiment working - simpply change the letters in the argument and the content of the routines.",
+    "crumbs": [
+      "Using PsychoPy",
+      "4 | Branching"
+    ]
   },
   {
     "objectID": "Branching.html#test-yourself",
     "href": "Branching.html#test-yourself",
     "title": "4 | Branching",
     "section": "Test yourself",
-    "text": "Test yourself\nQuestion 1 | What is the name of the routine you need to put the code in for the branching to work?\nQuestion 2 | What is the name of the tab the code should be in for your branching to work?\n\n\nExplain answer\n\nThe code needs to be able to effect what happens straight after input is made so it goes in the start routine where a response is inputted. However, it makes changes once the response has been given and so must go in the end routine tab."
+    "text": "Test yourself\nQuestion 1 | What is the name of the routine you need to put the code in for the branching to work?\nQuestion 2 | What is the name of the tab the code should be in for your branching to work?\n\n\nExplain answer\n\nThe code needs to be able to effect what happens straight after input is made so it goes in the start routine where a response is inputted. However, it makes changes once the response has been given and so must go in the end routine tab.",
+    "crumbs": [
+      "Using PsychoPy",
+      "4 | Branching"
+    ]
+  },
+  {
+    "objectID": "Blocks.html",
+    "href": "Blocks.html",
+    "title": "5 | Blocks",
+    "section": "",
+    "text": "What you’ll learn",
+    "crumbs": [
+      "Using PsychoPy",
+      "5 | Blocks"
+    ]
   },
   {
     "objectID": "Blocks.html#what-youll-learn",
     "href": "Blocks.html#what-youll-learn",
     "title": "5 | Blocks",
-    "section": "What you’ll learn",
-    "text": "What you’ll learn\n\nHow to implement blocks.\nHow to implement block designs and blocks for breaks.\nHow to change the break message based on blocks.\nBecome more comfortable with loops and code.\n\n\n\n\n\n\n\nCaution\n\n\n\n\n\nWhen attempting to make blocks a common mistake is to make separate trials with separate routines in them like the image below:\n\nInstead use loops within loops to cause blocks - this means you can maintain trial consistency. See the below image:"
+    "section": "",
+    "text": "How to implement blocks.\nHow to implement block designs and blocks for breaks.\nHow to change the break message based on blocks.\nBecome more comfortable with loops and code.\n\n\n\n\n\n\n\nCaution\n\n\n\n\n\nWhen attempting to make blocks a common mistake is to make separate trials with separate routines in them like the image below:\n\nInstead use loops within loops to cause blocks - this means you can maintain trial consistency. See the below image:",
+    "crumbs": [
+      "Using PsychoPy",
+      "5 | Blocks"
+    ]
   },
   {
     "objectID": "Blocks.html#things-to-change",
     "href": "Blocks.html#things-to-change",
     "title": "5 | Blocks",
     "section": "Things to change",
-    "text": "Things to change\n\nAdd another block, so that you are presented with one trial from each condition then a break before another block of the same.\n\n\n\nHint\n\nAdd another loop around the trials loop that ends after the block_break routine - call this loop block.\n\n\n\nAnswer\n\nYour flow should look like this: \n\n\nModify your experiment so that you present two trials from the ‘same’ condition in one block, and two trials from the ‘different’ condition in another.\n\n\n\nHint\n\nYou will need to modify the Excel documents and create new ones for this to work. You’ll need three files in total.\n\n\n\nAnswer\n\nYou will need to create three Excel documents, one for the same trials and one for the different trials. In a third document - call it blocks.xlsx, provide the names of the new Excel document in a column called conditions (remember to use .xlsx in the name). In the trials loop refernce the file names by entering $conditions. Finally, in the block loop load the file blocks.\n\n\nFor either block, format present a different message in the break for each block, for example ‘that was the first block, you have one more to go’ for the end of the first block but something different for the last block.\n\n\n\nHint 1\n\nYou will need to add some code for this. Add a code component to the block_break routine. Check back to the feedback task and look at how you defined a message using code\n\n\n\nHint 2\n\nYou’ll need to define a block counter this should equal to zero when the experiment starts but add one as each block passes.\n\n\n\nAnswer\n\nAdd a code component to the block_break routine. In the Before Experiment tab and add the following code.\n\n# define a block counter that will start at zero.\nblock_count = 0\n\nStill in the the block_break routine, select the text_3 routine - delete the words in the Text field and add a variable, we’ll call it $block_msg. Also, change the properties of the Text field so that it shows set every repeat.\nThen in the Begin Routine tab add the following.\n\n#add one to the block counter at the beginning of the routine. \nblock_count = block_count + 1;\n\n#add an if function that writes a messages based on the block. \nif block_count == 1:\n  block_msg = 'That is one block complete, you have one more to go. \\n \\n Press space when you are ready to start'\n  \nelif block_count == 2:\n  block_msg = 'Great - the experiment is over. \\n \\n Press space to end the experiment.'\n\nYour block messaging should now work!"
+    "text": "Things to change\n\nAdd another block, so that you are presented with one trial from each condition then a break before another block of the same.\n\n\n\nHint\n\nAdd another loop around the trials loop that ends after the block_break routine - call this loop block.\n\n\n\nAnswer\n\nYour flow should look like this: \n\n\nModify your experiment so that you present two trials from the ‘same’ condition in one block, and two trials from the ‘different’ condition in another.\n\n\n\nHint\n\nYou will need to modify the Excel documents and create new ones for this to work. You’ll need three files in total.\n\n\n\nAnswer\n\nYou will need to create three Excel documents, one for the same trials and one for the different trials. In a third document - call it blocks.xlsx, provide the names of the new Excel document in a column called conditions (remember to use .xlsx in the name). In the trials loop refernce the file names by entering $conditions. Finally, in the block loop load the file blocks.\n\n\nFor either block, format present a different message in the break for each block, for example ‘that was the first block, you have one more to go’ for the end of the first block but something different for the last block.\n\n\n\nHint 1\n\nYou will need to add some code for this. Add a code component to the block_break routine. Check back to the feedback task and look at how you defined a message using code\n\n\n\nHint 2\n\nYou’ll need to define a block counter this should equal to zero when the experiment starts but add one as each block passes.\n\n\n\nAnswer\n\nAdd a code component to the block_break routine. In the Begin Experiment tab and add the following code.\n\n# define a block counter that will start at zero.\nblock_count = 0\n\nStill in the the block_break routine, select the text_3 routine - delete the words in the Text field and add a variable, we’ll call it $block_msg. Also, change the properties of the Text field so that it shows set every repeat.\nThen in the Begin Routine tab add the following.\n\n#add one to the block counter at the beginning of the routine. \nblock_count = block_count + 1;\n\n#add an if function that writes a messages based on the block. \nif block_count == 1:\n  block_msg = 'That is one block complete, you have one more to go. \\n \\n Press space when you are ready to start'\n  \nelif block_count == 2:\n  block_msg = 'Great - the experiment is over. \\n \\n Press space to end the experiment.'\n\nYour block messaging should now work!",
+    "crumbs": [
+      "Using PsychoPy",
+      "5 | Blocks"
+    ]
   },
   {
     "objectID": "Blocks.html#test-yourself",
     "href": "Blocks.html#test-yourself",
     "title": "5 | Blocks",
     "section": "Test yourself",
-    "text": "Test yourself\nQuestion 1 | When coding a message to be displayed to participants, as in this experiment, what do you type to force a new line in the text?  \\n&gt;&lt;p\nQuestion 2 | What’s the name of the component where reaction times to same/different jusdgments are stored? \n\n\nAnswer\n\nkey_resp_2\n\nQuestion 3 | Would the storage of RTs, accuracy or any participant data change as a function of which block is running?  YesNo\n\n\nExplain\n\nThis is the advantage of this method of creating blocks - because routines and components are identical - it’s easier to organise and analyse the data."
+    "text": "Test yourself\nQuestion 1 | When coding a message to be displayed to participants, as in this experiment, what do you type to force a new line in the text?  \\n&gt;&lt;p\nQuestion 2 | What’s the name of the component where reaction times to same/different jusdgments are stored? \n\n\nAnswer\n\nkey_resp_2\n\nQuestion 3 | Would the storage of RTs, accuracy or any participant data change as a function of which block is running?  YesNo\n\n\nExplain\n\nThis is the advantage of this method of creating blocks - because routines and components are identical - it’s easier to organise and analyse the data.",
+    "crumbs": [
+      "Using PsychoPy",
+      "5 | Blocks"
+    ]
   },
   {
     "objectID": "PickAnExperiment.html",
     "href": "PickAnExperiment.html",
     "title": "Pick an Experiment",
     "section": "",
-    "text": "Choose one of the following experiments to build in PsychoPy. Along with the PsychoPy experiment forming part of your submission, you should also provide a 1200-word summary. The summary should explain what design decisions you have made and why you made them – specifically what research question are you addressing with your design choices. Also, briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network. You should complete this summary by answering the questions given in the template document.\n\nErikson Flanker Task\nSpatial Cuing Task\nLevels of Processing\nN-back Task\nMental Rotation"
+    "text": "Choose one of the following experiments to build in PsychoPy. Along with the PsychoPy experiment forming part of your submission, you should also provide a 1200-word summary. The summary should explain what design decisions you have made and why you made them – specifically what research question are you addressing with your design choices. Also, briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network. You should complete this summary by answering the questions given in the template document.\n\nErikson Flanker Task\nSpatial Cuing Task\nLevels of Processing\nN-back Task\nMental Rotation",
+    "crumbs": [
+      "Pick an Experiment"
+    ]
+  },
+  {
+    "objectID": "Erikson Flanker Task.html",
+    "href": "Erikson Flanker Task.html",
+    "title": "Erikson Flanker Task",
+    "section": "",
+    "text": "Design\nThis is a simple ‘flat’ design with one factor – Congruency, and three levels:\n* You should include more factors to change the design to test your hypothesis; you must explain your choices in the summary of the experiment.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Erikson Flanker Task"
+    ]
   },
   {
     "objectID": "Erikson Flanker Task.html#design",
     "href": "Erikson Flanker Task.html#design",
     "title": "Erikson Flanker Task",
-    "section": "Design",
-    "text": "Design\nThis is a simple ‘flat’ design with one factor – Congruency, and three levels:\n\nCongruent – where the central stimuli are the same as the distractor stimuli.\nIncongruent – where the central stimuli are different from the distractor stimuli.\nNeutral - where the central stimuli are different from the distractor stimuli but are not expected to interfere with processing.\n\n* You should include more factors to change the design to test your hypothesis; you must explain your choices in the summary of the experiment."
+    "section": "",
+    "text": "Congruent – where the central stimuli are the same as the distractor stimuli.\nIncongruent – where the central stimuli are different from the distractor stimuli.\nNeutral - where the central stimuli are different from the distractor stimuli but are not expected to interfere with processing.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Erikson Flanker Task"
+    ]
   },
   {
     "objectID": "Erikson Flanker Task.html#experimental-requirements",
     "href": "Erikson Flanker Task.html#experimental-requirements",
     "title": "Erikson Flanker Task",
     "section": "Experimental requirements",
-    "text": "Experimental requirements\nYour experiment must include the following:\n\nA brief information and consent sheet.\nAt least 5 practice trials where feedback is given to the participants based on their performance.\nFeedback in practice trials should be – correct/incorrect/no-response, too slow.\n20 trials in each condition. * Trials, across the three conditions, should be presented in a random order"
+    "text": "Experimental requirements\nYour experiment must include the following:\n\nA brief information and consent sheet.\nAt least 5 practice trials where feedback is given to the participants based on their performance.\nFeedback in practice trials should be – correct/incorrect/no-response, too slow.\n20 trials in each condition. * Trials, across the three conditions, should be presented in a random order",
+    "crumbs": [
+      "Pick an Experiment",
+      "Erikson Flanker Task"
+    ]
   },
   {
     "objectID": "Erikson Flanker Task.html#trial-requirements",
     "href": "Erikson Flanker Task.html#trial-requirements",
     "title": "Erikson Flanker Task",
     "section": "Trial requirements:",
-    "text": "Trial requirements:\n\nThe interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross – the length of time the fixation trial is on the screen should vary such that it’s offset is unpredictable.\nThe target stimuli should be presented centrally.\nThe distractor stimuli should be presented peripherally."
+    "text": "Trial requirements:\n\nThe interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross – the length of time the fixation trial is on the screen should vary such that it’s offset is unpredictable.\nThe target stimuli should be presented centrally.\nThe distractor stimuli should be presented peripherally.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Erikson Flanker Task"
+    ]
   },
   {
     "objectID": "Erikson Flanker Task.html#use-your-imagination",
     "href": "Erikson Flanker Task.html#use-your-imagination",
     "title": "Erikson Flanker Task",
     "section": "Use your imagination",
-    "text": "Use your imagination\nThere are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn’t comprehensive; if it isn’t specified above – you can change it.\n\nNature of the stimuli: words, pictures, letters, symbols etc.\nLocation of the stimuli: where peripheral distractors appear.\nNature of the task: what aspect of the target stimuli are participants asked to respond to.\n\n\n\n\n\nEriksen, B. A., & Eriksen, C. W. (1974). Effects of noise letters upon the identification of a target letter in a nonsearch task. Perception & Psychophysics, 16(1), 143–149."
+    "text": "Use your imagination\nThere are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn’t comprehensive; if it isn’t specified above – you can change it.\n\nNature of the stimuli: words, pictures, letters, symbols etc.\nLocation of the stimuli: where peripheral distractors appear.\nNature of the task: what aspect of the target stimuli are participants asked to respond to.\n\n\n\n\n\nEriksen, B. A., & Eriksen, C. W. (1974). Effects of noise letters upon the identification of a target letter in a nonsearch task. Perception & Psychophysics, 16(1), 143–149.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Erikson Flanker Task"
+    ]
+  },
+  {
+    "objectID": "Spatial Cuing Task.html",
+    "href": "Spatial Cuing Task.html",
+    "title": "Spatial Cuing Task",
+    "section": "",
+    "text": "Design\nOutlined here is a simple ‘flat’ design with one factor – Validity, that has two levels:\nYou should include more factors to change the design to test your hypothesis; you must explain your choices in the summary of the experiment.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Spatial Cuing Task"
+    ]
   },
   {
     "objectID": "Spatial Cuing Task.html#design",
     "href": "Spatial Cuing Task.html#design",
     "title": "Spatial Cuing Task",
-    "section": "Design",
-    "text": "Design\nOutlined here is a simple ‘flat’ design with one factor – Validity, that has two levels:\n\nValid – where the target location is predicted by the cueing stimuli.\nInvalid – where the target location is predicted by the cueing stimuli.\n\nYou should include more factors to change the design to test your hypothesis; you must explain your choices in the summary of the experiment."
+    "section": "",
+    "text": "Valid – where the target location is predicted by the cueing stimuli.\nInvalid – where the target location is predicted by the cueing stimuli.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Spatial Cuing Task"
+    ]
   },
   {
     "objectID": "Spatial Cuing Task.html#experimental-requirements",
     "href": "Spatial Cuing Task.html#experimental-requirements",
     "title": "Spatial Cuing Task",
     "section": "Experimental requirements",
-    "text": "Experimental requirements\nYour experiment must include the following:\n\nAn information and consent sheet.\nAt least 5 practice trials where feedback is given to the participants based on their performance.\nFeedback in practice trials should be – correct/incorrect/no-response, too slow.\n20 trials in each condition.\nTrials, across the three conditions, should be presented in a random order"
+    "text": "Experimental requirements\nYour experiment must include the following:\n\nAn information and consent sheet.\nAt least 5 practice trials where feedback is given to the participants based on their performance.\nFeedback in practice trials should be – correct/incorrect/no-response, too slow.\n20 trials in each condition.\nTrials, across the three conditions, should be presented in a random order",
+    "crumbs": [
+      "Pick an Experiment",
+      "Spatial Cuing Task"
+    ]
   },
   {
     "objectID": "Spatial Cuing Task.html#trial-requirements",
     "href": "Spatial Cuing Task.html#trial-requirements",
     "title": "Spatial Cuing Task",
     "section": "Trial requirements",
-    "text": "Trial requirements\n\nThe interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross – the length of time the fixation trial is on the screen should vary such that it’s offset is unpredictable.\nA fixation cross should remain on the screen throughout the trial so participants can focus their gaze.\nThe interval between cue and target should vary such that the onset of the target is unpredictable."
+    "text": "Trial requirements\n\nThe interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross – the length of time the fixation trial is on the screen should vary such that it’s offset is unpredictable.\nA fixation cross should remain on the screen throughout the trial so participants can focus their gaze.\nThe interval between cue and target should vary such that the onset of the target is unpredictable.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Spatial Cuing Task"
+    ]
   },
   {
     "objectID": "Spatial Cuing Task.html#use-your-imagination",
     "href": "Spatial Cuing Task.html#use-your-imagination",
     "title": "Spatial Cuing Task",
     "section": "Use your imagination",
-    "text": "Use your imagination\nThere are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn’t comprehensive; if it isn’t specified above – you can change it.\n\nNature of the stimuli -&gt; words, pictures, letters, symbols etc.\nTesting endogenous, exogenous attention or both.\nUsing central or peripheral cues.\n\n\n\n\n\nPosner, M. I., Snyder, C. R., & Davidson, B. J. (1980). Attention and the detection of signals. Journal of Experimental Psychology: General, 109(2), 160."
+    "text": "Use your imagination\nThere are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn’t comprehensive; if it isn’t specified above – you can change it.\n\nNature of the stimuli -&gt; words, pictures, letters, symbols etc.\nTesting endogenous, exogenous attention or both.\nUsing central or peripheral cues.\n\n\n\n\n\nPosner, M. I., Snyder, C. R., & Davidson, B. J. (1980). Attention and the detection of signals. Journal of Experimental Psychology: General, 109(2), 160.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Spatial Cuing Task"
+    ]
+  },
+  {
+    "objectID": "Levels of Processing.html",
+    "href": "Levels of Processing.html",
+    "title": "Levels of Processing",
+    "section": "",
+    "text": "Design\nThis again is a simple ‘flat’ design with two experimental conditions:",
+    "crumbs": [
+      "Pick an Experiment",
+      "Levels of Processing"
+    ]
   },
   {
     "objectID": "Levels of Processing.html#design",
     "href": "Levels of Processing.html#design",
     "title": "Levels of Processing",
-    "section": "Design",
-    "text": "Design\nThis again is a simple ‘flat’ design with two experimental conditions:\n\nShallow encoding – the task given to the participant requires them to attend to perceptual features of the stimuli.\nDeep encoding – the task given to the participant requires them to attend to conceptual features of the stimuli."
+    "section": "",
+    "text": "Shallow encoding – the task given to the participant requires them to attend to perceptual features of the stimuli.\nDeep encoding – the task given to the participant requires them to attend to conceptual features of the stimuli.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Levels of Processing"
+    ]
   },
   {
     "objectID": "Levels of Processing.html#experimental-requirements",
     "href": "Levels of Processing.html#experimental-requirements",
     "title": "Levels of Processing",
     "section": "Experimental requirements",
-    "text": "Experimental requirements\nYour experiment must include the following:\n\nAn information and consent sheet.\n20 trials in each condition.\nTrials, across the conditions, should be presented in a random order.\nThe encoding and recognition block should be separated by a distractor task.\nIn the recognition block double the number of stimuli should be shown to the participants compared to the encoding block – 50% previously seen (old) and 50% unseen (new) stimuli.\nStimuli sets should be counterbalanced across participants."
+    "text": "Experimental requirements\nYour experiment must include the following:\n\nAn information and consent sheet.\n20 trials in each condition.\nTrials, across the conditions, should be presented in a random order.\nThe encoding and recognition block should be separated by a distractor task.\nIn the recognition block double the number of stimuli should be shown to the participants compared to the encoding block – 50% previously seen (old) and 50% unseen (new) stimuli.\nStimuli sets should be counterbalanced across participants.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Levels of Processing"
+    ]
   },
   {
     "objectID": "Levels of Processing.html#trial-requirements",
     "href": "Levels of Processing.html#trial-requirements",
     "title": "Levels of Processing",
     "section": "Trial requirements",
-    "text": "Trial requirements\n\nThe interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross – the length of time the fixation trial is on the screen should vary such that it’s offset is unpredictable."
+    "text": "Trial requirements\n\nThe interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross – the length of time the fixation trial is on the screen should vary such that it’s offset is unpredictable.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Levels of Processing"
+    ]
   },
   {
     "objectID": "Levels of Processing.html#use-your-imagination",
     "href": "Levels of Processing.html#use-your-imagination",
     "title": "Levels of Processing",
     "section": "Use your imagination",
-    "text": "Use your imagination\nThere are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn’t comprehensive; if it isn’t specified above – you can change it.\n\nNature of the stimuli -&gt; words, pictures, letters, symbols etc.\nNature of the task -&gt; how will you define what shallow and deep processing is?\nNature of retrieval -&gt; you can choose to look at implicit or explicit memory based on how you measure retrieval.\nAttention check -&gt; How do you know your participants were paying attention, what steps can you take to identify this.\n\n\n\n\n\nCraik, F. I., & Tulving, E. (1975). Depth of processing and the retention of words in episodic memory. Journal of Experimental Psychology: General, 104(3), 268."
+    "text": "Use your imagination\nThere are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn’t comprehensive; if it isn’t specified above – you can change it.\n\nNature of the stimuli -&gt; words, pictures, letters, symbols etc.\nNature of the task -&gt; how will you define what shallow and deep processing is?\nNature of retrieval -&gt; you can choose to look at implicit or explicit memory based on how you measure retrieval.\nAttention check -&gt; How do you know your participants were paying attention, what steps can you take to identify this.\n\n\n\n\n\nCraik, F. I., & Tulving, E. (1975). Depth of processing and the retention of words in episodic memory. Journal of Experimental Psychology: General, 104(3), 268.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Levels of Processing"
+    ]
+  },
+  {
+    "objectID": "N-back task.html",
+    "href": "N-back task.html",
+    "title": "N-back task",
+    "section": "",
+    "text": "Design\nThis again is a simple ‘flat’ design the number of experimental conditions you have can vary but you should have at least two:",
+    "crumbs": [
+      "Pick an Experiment",
+      "N-back task"
+    ]
   },
   {
     "objectID": "N-back task.html#design",
     "href": "N-back task.html#design",
     "title": "N-back task",
-    "section": "Design",
-    "text": "Design\nThis again is a simple ‘flat’ design the number of experimental conditions you have can vary but you should have at least two:\n\nLow n – there should be a low number of steps between the identical stimuli.\nHigh n – there should be a high number of steps between the identical stimuli."
+    "section": "",
+    "text": "Low n – there should be a low number of steps between the identical stimuli.\nHigh n – there should be a high number of steps between the identical stimuli.",
+    "crumbs": [
+      "Pick an Experiment",
+      "N-back task"
+    ]
   },
   {
     "objectID": "N-back task.html#experimental-requirements",
     "href": "N-back task.html#experimental-requirements",
     "title": "N-back task",
     "section": "Experimental requirements",
-    "text": "Experimental requirements\nYour experiment must include the following\n\nAn information and consent sheet.\n30 trials in each condition.\nA practice block where feedback is given to the participants based on their performance.\nFeedback in practice trials should be – correct/incorrect/no-response, too slow."
+    "text": "Experimental requirements\nYour experiment must include the following\n\nAn information and consent sheet.\n30 trials in each condition.\nA practice block where feedback is given to the participants based on their performance.\nFeedback in practice trials should be – correct/incorrect/no-response, too slow.",
+    "crumbs": [
+      "Pick an Experiment",
+      "N-back task"
+    ]
   },
   {
     "objectID": "N-back task.html#trial-requirements",
     "href": "N-back task.html#trial-requirements",
     "title": "N-back task",
     "section": "Trial requirements",
-    "text": "Trial requirements\n\nThe interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross – the length of time the fixation trial is on the screen should vary such that it’s offset is unpredictable."
+    "text": "Trial requirements\n\nThe interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross – the length of time the fixation trial is on the screen should vary such that it’s offset is unpredictable.",
+    "crumbs": [
+      "Pick an Experiment",
+      "N-back task"
+    ]
   },
   {
     "objectID": "N-back task.html#use-your-imagination",
     "href": "N-back task.html#use-your-imagination",
     "title": "N-back task",
     "section": "Use your imagination",
-    "text": "Use your imagination\nThere are several aspects of the experiment that you can change freely and systematically; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn’t comprehensive; if it isn’t specified above – you can change it.\n\nNature of the stimuli -&gt; words, pictures, letters, symbols etc.\nWhat participants are trying to identify is ‘the same’ –&gt; colour, meaning, location, look.\nNumber of blocks and n’s -&gt; you can have just low and high, or more intervals.\n\n\n\n\n\nKirchner, W. K. (1958). Age differences in short-term retention of rapidly changing information. Journal of Experimental Psychology, 55(4), 352."
+    "text": "Use your imagination\nThere are several aspects of the experiment that you can change freely and systematically; this means that you will be able to test your own specific hypothesis. Here is a list of somethings you can change but it isn’t comprehensive; if it isn’t specified above – you can change it.\n\nNature of the stimuli -&gt; words, pictures, letters, symbols etc.\nWhat participants are trying to identify is ‘the same’ –&gt; colour, meaning, location, look.\nNumber of blocks and n’s -&gt; you can have just low and high, or more intervals.\n\n\n\n\n\nKirchner, W. K. (1958). Age differences in short-term retention of rapidly changing information. Journal of Experimental Psychology, 55(4), 352.",
+    "crumbs": [
+      "Pick an Experiment",
+      "N-back task"
+    ]
+  },
+  {
+    "objectID": "Mental rotation.html",
+    "href": "Mental rotation.html",
+    "title": "Mental rotation",
+    "section": "",
+    "text": "Design\nThis again is a simple ‘flat’ design the number of experimental conditions you have can vary but you should have at least one factor and 4 conditions:",
+    "crumbs": [
+      "Pick an Experiment",
+      "Mental rotation"
+    ]
   },
   {
     "objectID": "Mental rotation.html#design",
     "href": "Mental rotation.html#design",
     "title": "Mental rotation",
-    "section": "Design",
-    "text": "Design\nThis again is a simple ‘flat’ design the number of experimental conditions you have can vary but you should have at least one factor and 4 conditions:\n\nOrientation -&gt; the correct answer should be rotated at four different orientations: 0°, 90°, 180°, 270°."
+    "section": "",
+    "text": "Orientation -&gt; the correct answer should be rotated at four different orientations: 0°, 90°, 180°, 270°.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Mental rotation"
+    ]
   },
   {
     "objectID": "Mental rotation.html#experimental-requirements",
     "href": "Mental rotation.html#experimental-requirements",
     "title": "Mental rotation",
     "section": "Experimental requirements",
-    "text": "Experimental requirements\nYour experiment must include the following\n\nAn information and consent sheet.\n30 trials in each condition.\nA practice block where feedback is given to the participants based on their performance.\nFeedback in practice trials should be – correct/incorrect."
+    "text": "Experimental requirements\nYour experiment must include the following\n\nAn information and consent sheet.\n30 trials in each condition.\nA practice block where feedback is given to the participants based on their performance.\nFeedback in practice trials should be – correct/incorrect.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Mental rotation"
+    ]
   },
   {
     "objectID": "Mental rotation.html#trial-requirements",
     "href": "Mental rotation.html#trial-requirements",
     "title": "Mental rotation",
     "section": "Trial requirements",
-    "text": "Trial requirements\n\nThe interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross – the length of time the fixation trial is on the screen should vary such that it’s offset is unpredictable.\nThe correct response should be one of four possible; three should be distractors.\nThe cue, target and distractors should all be presented on the screen at the same time."
+    "text": "Trial requirements\n\nThe interval between trials (also known as the inter-trial-interval: ITI) should be filled with a fixation cross – the length of time the fixation trial is on the screen should vary such that it’s offset is unpredictable.\nThe correct response should be one of four possible; three should be distractors.\nThe cue, target and distractors should all be presented on the screen at the same time.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Mental rotation"
+    ]
   },
   {
     "objectID": "Mental rotation.html#use-your-imagination",
     "href": "Mental rotation.html#use-your-imagination",
     "title": "Mental rotation",
     "section": "Use your imagination",
-    "text": "Use your imagination\nThere are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of some things you can change but it isn’t comprehensive; if it isn’t specified above – you can change it.\n\nNature of the stimuli -&gt; pictures, letters, symbols, abstract shapes, etc.\nSimilarity of target and distractors.\n\n\n\n\n\nVandenberg, S. G., & Kuse, A. R. (1978). Mental rotations, a group test of three-dimensional spatial visualization. Perceptual and Motor Skills, 47(2), 599–604."
+    "text": "Use your imagination\nThere are several aspects of the experiment that you can change freely; this means that you will be able to test your own specific hypothesis. Here is a list of some things you can change but it isn’t comprehensive; if it isn’t specified above – you can change it.\n\nNature of the stimuli -&gt; pictures, letters, symbols, abstract shapes, etc.\nSimilarity of target and distractors.\n\n\n\n\n\nVandenberg, S. G., & Kuse, A. R. (1978). Mental rotations, a group test of three-dimensional spatial visualization. Perceptual and Motor Skills, 47(2), 599–604.",
+    "crumbs": [
+      "Pick an Experiment",
+      "Mental rotation"
+    ]
+  },
+  {
+    "objectID": "Explain.html",
+    "href": "Explain.html",
+    "title": "Explain Your Experiment",
+    "section": "",
+    "text": "Instructions\nBased on your chosen experiment that you have built in PsychoPy, provide a 1200-word summary by answering the questions below. This summary should explain what design decisions you have made and why you made them – specifically what research question are you addressing with your design choices. Make sure you briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network. Use the following subsections to write your summary:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Explain Your Experiment</span>"
+    ]
   },
   {
     "objectID": "Explain.html#instructions",
     "href": "Explain.html#instructions",
     "title": "Explain Your Experiment",
-    "section": "Instructions",
-    "text": "Instructions\nBased on your chosen experiment that you have built in PsychoPy, provide a 1200-word summary by answering the questions below. This summary should explain what design decisions you have made and why you made them – specifically what research question are you addressing with your design choices. Make sure you briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network. Use the following subsections to write your summary:\n\nAims (~100 words).\n\nWhat are the overall research aims of your experiment? What do you hope to test and find out about cognition and/or the brain from your results.\n\nBackground & rationale (~500 words).\n\nThis section should include references and provide a succinct summary of key findings in the field that have used similar experimental designs. It is important that you include here an overview of research that has linked brain structure and/or function to experiments similar to yours. Importantly, you should also provide some key theoretical rationale for your experiment.\n\n\nPredictions (~100 words).\n\nYour predictions don’t have to be comprehensive but they should include critical hypotheses - what hypothesis is the key test of your theory?\n\nMethods & design rationale (~500 words).\n\nHere you should outline the details of your experimental design and prcedure. It is important that you include a rationale for any decisions you made about the design structure and procedural set up. If, for example, you added another condition, or changed the nature of the stimuli systematically - explain here why you did this - what are these novel manipulations meant to test?"
+    "section": "",
+    "text": "Aims (~100 words).\n\nWhat are the overall research aims of your experiment? What do you hope to test and find out about cognition and/or the brain from your results.\n\nBackground & rationale (~500 words).\n\nThis section should include references and provide a succinct summary of key findings in the field that have used similar experimental designs. It is important that you include here an overview of research that has linked brain structure and/or function to experiments similar to yours. Importantly, you should also provide some key theoretical rationale for your experiment.\n\n\nPredictions (~100 words).\n\nYour predictions don’t have to be comprehensive but they should include critical hypotheses - what hypothesis is the key test of your theory?\n\nMethods & design rationale (~500 words).\n\nHere you should outline the details of your experimental design and prcedure. It is important that you include a rationale for any decisions you made about the design structure and procedural set up. If, for example, you added another condition, or changed the nature of the stimuli systematically - explain here why you did this - what are these novel manipulations meant to test?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Explain Your Experiment</span>"
+    ]
   },
   {
-    "objectID": "Submit.html#written-component",
-    "href": "Submit.html#written-component",
+    "objectID": "Submit.html",
+    "href": "Submit.html",
     "title": "How to Submit",
-    "section": "Written component",
-    "text": "Written component\nYour final portfolio accounts for 80% of your grade for this module. Your write up of your experiment should form part of your portfolio that should be submitted as one document on MyLearning here (log in to MyLearning required)"
+    "section": "",
+    "text": "Written component\nYour final portfolio accounts for 80% of your grade for this module. Your write up of your experiment should form part of your portfolio that should be submitted as one document on MyLearning here (log in to MyLearning required)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>How to Submit</span>"
+    ]
   },
   {
     "objectID": "Submit.html#experiment",
     "href": "Submit.html#experiment",
     "title": "How to Submit",
     "section": "Experiment",
-    "text": "Experiment\nAs part of your portfolio you should also submit your experiment built in PsychoPy. To do so you should zip your folder (help on how to zip a file) and upload your compressed folder to MyLearning here.\nYour folder should include:\n- A PsychoPy experiment file\n- A spreadsheet for trials and blocks.\n- A readme file with a brief outline of the experiment.\n- Any stimuli needed for your experiment to run.\nYour experiment should be standalone - the folder should contain everything needed to run the experiment (except an installation of PsychoPy)"
+    "text": "Experiment\nAs part of your portfolio you should also submit your experiment built in PsychoPy. To do so you should zip your folder (help on how to zip a file) and upload your compressed folder to MyLearning here.\nYour folder should include:\n- A PsychoPy experiment file\n- A spreadsheet for trials and blocks.\n- A readme file with a brief outline of the experiment.\n- Any stimuli needed for your experiment to run.\nYour experiment should be standalone - the folder should contain everything needed to run the experiment (except an installation of PsychoPy)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>How to Submit</span>"
+    ]
+  },
+  {
+    "objectID": "Resources.html",
+    "href": "Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "PsychoPy Specific",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Resources</span>"
+    ]
   },
   {
     "objectID": "Resources.html#psychopy-specific",
     "href": "Resources.html#psychopy-specific",
     "title": "Resources",
-    "section": "PsychoPy Specific",
-    "text": "PsychoPy Specific\n\nPsychoPy Experiment Recipe Book\nSusan Benear’s - Coding Outreach Group Summer Workshop\nPsychoPy Forum – use it, create an account, ask questions and help others.\nExcellent introductory information from the University of Nottingham\nPeirce, J., Hirst, R., & MacAskill, M. (2022). Building experiments in PsychoPy. Sage.\n\nAvailable electronically from MDX library - sign in required.\n\nSlides Jon & Alex’s lecture on PsychoPy."
+    "section": "",
+    "text": "PsychoPy Experiment Recipe Book\nSusan Benear’s - Coding Outreach Group Summer Workshop\nPsychoPy Forum – use it, create an account, ask questions and help others.\nExcellent introductory information from the University of Nottingham\nPeirce, J., Hirst, R., & MacAskill, M. (2022). Building experiments in PsychoPy. Sage.\n\nAvailable electronically from MDX library - sign in required.\n\nSlides Jon & Alex’s lecture on PsychoPy.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Resources</span>"
+    ]
   },
   {
     "objectID": "Resources.html#python-specific",
     "href": "Resources.html#python-specific",
     "title": "Resources",
     "section": "Python Specific",
-    "text": "Python Specific\n\nDownload and install Python\nIntroduction to Python online\nlearnpython.org\nLutz, M. (2013). Learning python: Powerful object-oriented programming. ” O’Reilly Media, Inc.”.\n\nAvailable electronically from MDX library - sign in required."
+    "text": "Python Specific\n\nDownload and install Python\nIntroduction to Python online\nlearnpython.org\nLutz, M. (2013). Learning python: Powerful object-oriented programming. ” O’Reilly Media, Inc.”.\n\nAvailable electronically from MDX library - sign in required.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Resources</span>"
+    ]
   },
   {
     "objectID": "Resources.html#broader-programing-resources",
     "href": "Resources.html#broader-programing-resources",
     "title": "Resources",
     "section": "Broader Programing Resources",
-    "text": "Broader Programing Resources\n\nR and RStudio\n\nR is a programming language commonly used in data science and statistics.\nR studio is a desktop environment for using coding programs like R and Python.\n\nPsyTeachR - is an amazing set of resources made freely available by the Psychology department at Glasgow University - highly recommended!"
+    "text": "Broader Programing Resources\n\nR and RStudio\n\nR is a programming language commonly used in data science and statistics.\nR studio is a desktop environment for using coding programs like R and Python.\n\nPsyTeachR - is an amazing set of resources made freely available by the Psychology department at Glasgow University - highly recommended!",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Resources</span>"
+    ]
   },
   {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Craik, F. I., & Tulving, E. (1975). Depth of processing and the\nretention of words in episodic memory. Journal of Experimental\nPsychology: General, 104(3), 268.\n\n\nEriksen, B. A., & Eriksen, C. W. (1974). Effects of noise letters\nupon the identification of a target letter in a nonsearch task.\nPerception & Psychophysics, 16(1), 143–149.\n\n\nKirchner, W. K. (1958). Age differences in short-term retention of\nrapidly changing information. Journal of Experimental\nPsychology, 55(4), 352.\n\n\nPosner, M. I., Snyder, C. R., & Davidson, B. J. (1980). Attention\nand the detection of signals. Journal of Experimental Psychology:\nGeneral, 109(2), 160.\n\n\nVandenberg, S. G., & Kuse, A. R. (1978). Mental rotations, a group\ntest of three-dimensional spatial visualization. Perceptual and\nMotor Skills, 47(2), 599–604."
+    "text": "Craik, F. I., & Tulving, E. (1975). Depth of processing and the\nretention of words in episodic memory. Journal of Experimental\nPsychology: General, 104(3), 268.\n\n\nEriksen, B. A., & Eriksen, C. W. (1974). Effects of noise letters\nupon the identification of a target letter in a nonsearch task.\nPerception & Psychophysics, 16(1), 143–149.\n\n\nKirchner, W. K. (1958). Age differences in short-term retention of\nrapidly changing information. Journal of Experimental\nPsychology, 55(4), 352.\n\n\nPosner, M. I., Snyder, C. R., & Davidson, B. J. (1980). Attention\nand the detection of signals. Journal of Experimental Psychology:\nGeneral, 109(2), 160.\n\n\nVandenberg, S. G., & Kuse, A. R. (1978). Mental rotations, a group\ntest of three-dimensional spatial visualization. Perceptual and\nMotor Skills, 47(2), 599–604.",
+    "crumbs": [
+      "References"
+    ]
   }
 ]
