@@ -72,7 +72,7 @@ cat("You'll need to define a `block counter` this should equal to zero when the 
 `r unhide()`
 
 `r hide("Answer")`
-Add a code component to the `block_break` routine. In the `Before Experiment` tab and add the following code. 
+Add a code component to the `block_break` routine. In the `Begin Experiment` tab and add the following code. 
 ```{r, eval=FALSE, echo = TRUE}
 # define a block counter that will start at zero.
 block_count = 0
