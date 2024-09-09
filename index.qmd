@@ -4,12 +4,12 @@
 ![](images/logo.png){width="200"}
 :::
 
-This is a companion guide to the module PSY4061 Practical Cognitive Neuroscience and is aimed specifically at helping you with the component of the portfolio linked to 'Designing, Building and Explaining an Experiment'. Your portfolio is worth 80% of your grade and Designing, Building and Explaining an Experiment is worth 40% of the portfolio.
+This is a companion guide to the module PSY4070 Practical Cognitive Neuroscience and is aimed specifically at helping you with the component of the portfolio linked to 'Designing, Building and Explaining an Experiment'. Your portfolio is worth 80% of your grade and Designing, Building and Explaining an Experiment is worth 40% of the portfolio.
 
 ::: {.callout-important collapse="true" title="Portfolio Deadline"}
 You should submit your final functioning PsychoPy experiment as a zipped folder containing all relevant documents and programs. Your explanation of your experiment should be submitted as part of your portfolio.
 
-**Portfolio submission deadline - 15.04.24 10am**
+**Portfolio submission deadline - 21.04.25 10am**
 
 [See instructions on how to submit your work here](Submit.qmd)
 :::
