@@ -347,7 +347,7 @@
     "href": "Erikson Flanker Task.html#experimental-requirements",
     "title": "Erikson Flanker Task",
     "section": "Experimental requirements",
-    "text": "Experimental requirements\nYour experiment must include the following:\n\nA brief information and consent sheet.\nAt least 5 practice trials where feedback is given to the participants based on their performance.\nFeedback in practice trials should be – correct/incorrect/no-response, too slow.\n20 trials in each condition. * Trials, across the three conditions, should be presented in a random order",
+    "text": "Experimental requirements\nYour experiment must include the following:\n\nA brief information and consent sheet.\nAt least 5 practice trials where feedback is given to the participants based on their performance.\nFeedback in practice trials should be – correct/incorrect/no-response, too slow.\nat least 10 trials in each condition. * Trials, across the three conditions, should be presented in a random order",
     "crumbs": [
       "Pick an Experiment",
       "Erikson Flanker Task"
@@ -600,7 +600,7 @@
     "href": "Explain.html",
     "title": "Explain Your Experiment",
     "section": "",
-    "text": "Instructions\nBased on your chosen experiment that you have built in PsychoPy, provide a 1200-word summary by answering the questions below. This summary should explain what design decisions you have made and why you made them – specifically what research question are you addressing with your design choices. Make sure you briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network. Use the following subsections to write your summary:",
+    "text": "Instructions\nBased on your chosen experiment that you have built in PsychoPy, provide a 1500-word summary by answering the questions below. This summary should explain what design decisions you have made and why you made them – specifically what research question are you addressing with your design choices. Make sure you briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network. Use the following subsections to write your summary:",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Explain Your Experiment</span>"
     ]
