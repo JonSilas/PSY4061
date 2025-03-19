@@ -20,7 +20,7 @@ Your experiment must include the following:
 -   A brief information and consent sheet.
 -   At least 5 practice trials where feedback is given to the participants based on their performance.
 -   Feedback in practice trials should be -- correct/incorrect/no-response, too slow.
--   20 trials in each condition. \* Trials, across the three conditions, should be presented in a random order
+-   at least 10 trials in each condition. \* Trials, across the three conditions, should be presented in a random order
 
 ## Trial requirements:
 

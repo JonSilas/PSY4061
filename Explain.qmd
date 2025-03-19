@@ -6,7 +6,7 @@
 
 ## Instructions
 
-Based on your chosen experiment that you have built in PsychoPy, provide a 1200-word summary by answering the questions below. This summary should explain what design decisions you have made and why you made them -- specifically what research question are you addressing with your design choices. Make sure you briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network. Use the following subsections to write your summary:
+Based on your chosen experiment that you have built in PsychoPy, provide a 1500-word summary by answering the questions below. This summary should explain what design decisions you have made and why you made them -- specifically what research question are you addressing with your design choices. Make sure you briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network. Use the following subsections to write your summary:
 
 -   **Aims (\~150 words).**
     -   What are the overall research aims of your experiment? What do you hope to test and find out about cognition and/or the brain from your results.
