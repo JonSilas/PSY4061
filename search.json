@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Designing, Building and Explaining an Experiment",
     "section": "",
-    "text": "Introduction\nThis is a companion guide to the module PSY4070 Practical Cognitive Neuroscience and is aimed specifically at helping you with the component of the portfolio linked to ‘Designing, Building and Explaining an Experiment’. Your portfolio is worth 80% of your grade and Designing, Building and Explaining an Experiment is worth 40% of the portfolio.\nFor this part of your assessment you will have to design and build a functioning behavioural experiment in a program called PsychoPy. The section Using PsychoPy is designed to get you using PsychoPy and help you get comfortable enough to build your own experiment. Once you’ve gone through the introductory tutorials check out the Pick an Experiment section - you will need to choose one of these experiments to build in PsychoPy as part of your assessment.\nAs well as building your experiment, you will also need to explain your experiment. You will need to write 1200 words, following the guidelines outlined in the Explain Your Experiment section.\nThe resources and support in this online guide should be used in conjunction with the other forms of support available to you; in-class, via email and in one-to-ones with the module leaders. This whole guide can be downloaded as a PDF or word document by clicking the download button in the menu and selecting your preferred format.",
+    "text": "Introduction\nThis is a companion guide to the module PSY4180 Practical Methods and Topics in Cognitive Neuroscience and is aimed specifically at helping you with the component of the portfolio linked to ‘Designing, Building and Explaining an Experiment’.\nFor this part of your assessment you will have to design and build a functioning behavioural experiment in a program called PsychoPy. The section Using PsychoPy is designed to get you using PsychoPy and help you get comfortable enough to build your own experiment. Once you’ve gone through the introductory tutorials, check out the Pick an Experiment section - you will need to choose one of these experiments to build in PsychoPy as part of your assessment.\nAs well as building your experiment, you will also need to explain your experiment. You will need to write 1500 words, following the guidelines outlined in the Explain Your Experiment section.\nThe resources and support in this online guide should be used in conjunction with the other forms of support available to you; in-class, via email and in one-to-ones with the module leaders. This whole guide can be downloaded as a PDF or word document by clicking the download button in the menu and selecting your preferred format.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#how-to-use-this-bookwebsite",
     "title": "Designing, Building and Explaining an Experiment",
     "section": "How to use this book/website",
-    "text": "How to use this book/website\nFor the most part you should go through this book in a linear fashion; page-by-page. You can skip forward one page at a time by using the arrow key at the bottom right of each page. If you need to come back to some of the information here, use this as you would any website; the search bar - on the left - should help you find anything you are looking for. This website works best on a computer not on a phone or tablet.\nThere are three parts to this book:\n\nUsing PsychoPy - Each chapter in this part is an exercise with activities and mini-quizzes for you to work through, aimed at getting you using and exploring PsychoPy.\nPick an Experiment - Each chapter is one possible experiment for you to choose to design, build and explain for your assessment; you don’t need to read all of these but you should skim them to get a feel of which one you want to build then, read that one in more detail.\nExplain Your Experiment - This section outlines what is required from you when you write up an explanation for your experiment that you’ve built.\n\nYou might also find the icons in the navigation bar helpful:\n\n\n\n\n\n\n\n\nLink to github code for this book.\n\n\n\nClick to download this book as a .pdf, .docx, or .epub file.\n\n\n\nClick to share to the link to the book with others.\n\n\n\nClick to switch between light and dark mode.\n\n\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.",
+    "text": "How to use this book/website\nFor the most part you should go through this book in a linear fashion; page-by-page. You can skip forward one page at a time by using the arrow button at the bottom right of each page. If you need to come back to some of the information here, use this as you would any website; the search bar - on the left - should help you find anything you are looking for. This website works best on a computer not on a phone or tablet.\nThere are three parts to this book:\n\nUsing PsychoPy - Each chapter in this part is an exercise with activities and mini-quizzes for you to work through, aimed at getting you using and exploring PsychoPy.\nPick an Experiment - Each chapter is one possible experiment for you to choose to design, build and explain for your assessment; you don’t need to read all of these but you should skim them to get a feel of which one you want to build then, read that one in more detail.\nExplain Your Experiment - This section outlines what is required from you when you write up an explanation for your experiment that you’ve built.\n\nYou might also find the icons in the navigation bar helpful:\n\n\n\n\n\n\n\n\nLink to github code for this book.\n\n\n\nClick to download this book as a .pdf, .docx, or .epub file.\n\n\n\nClick to share to the link to the book with others.\n\n\n\nClick to switch between light and dark mode.\n\n\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -34,7 +34,7 @@
     "href": "Using PsychoPy.html#teaching-and-learning",
     "title": "Using PsychoPy",
     "section": "Teaching and Learning",
-    "text": "Teaching and Learning\nPSY4061 as a module, and the Cognitive & Clinical Neuroscience MSc at Middlesex, doesn’t explicitly teach programming and coding - we think there’s enough neuroscience to get through! But, in this module we would be remiss if we didn’t provide some introduction to the methods cognitive neuroscientists use to build and deploy experiments. If you are keen in continuing in a career within cognitive neuroscience, specifically, or in the research sciences more broadly, we strongly encourage you to develop your Python skills further (and coding skills more generally) - we provide some links to freely available resources you can use to do this (see, Resources section) . If you are more interested in clinical neuroscience or working in the commercial sector - we feel the skills you will learn here will certainly benefit you long term, but you may not want to peruse coding and Python any further.",
+    "text": "Teaching and Learning\nPSY4180 as a module, and the Cognitive & Clinical Neuroscience MSc at Middlesex, doesn’t explicitly teach programming and coding - we think there’s enough neuroscience to get through! But, in this module we would be remiss if we didn’t provide some introduction to the methods cognitive neuroscientists use to build and deploy experiments. If you are keen in continuing in a career within cognitive neuroscience, specifically, or in the research sciences more broadly, we strongly encourage you to develop your Python skills further (and coding skills more generally) - we provide some links to freely available resources you can use to do this (see, Resources section) . If you are more interested in clinical neuroscience or working in the commercial sector - we feel the skills you will learn here will certainly benefit you long term, but you may not want to peruse coding and Python any further.",
     "crumbs": [
       "Using PsychoPy"
     ]
@@ -128,7 +128,7 @@
     "href": "1.0_HelloWorld.html#test-yourself",
     "title": "1 | Hello World",
     "section": "Test yourself",
-    "text": "Test yourself\nQuestion 1 | On the last screen of the experiment you have to press space for the experiment to exit. What column in the data generated for any run of the experiment gives you this reaction time?\n\n\nAnswer\n\nkey_resp.rt\n\n\n\nExplain\n\nAll data generated for an experiment is saved the data folder automatically generated when you run a PsychoPy Experiment. Within that folder - each participant has a spreadsheet, text document and PSYDAT file. Opening the spreadsheet is the easiest way to get a quick overview of the data collected. Within that spreadsheet, components from the experiment have their own column, and names are appended to indicate what they reflect. In this case the component is called key_resp and is appended with .rt to reflect that data in that column is reaction time.\n\nQuestion 2 | What value should you enter if you want a stimuli to remain on the screen indefinately?  09999‘blank’0000\n\n\nExplain\n\nIn the duration (s) property of any component you can specify how long that component should appear on the screen for. If you want, as we often do in an experiment, to wait for a response you can specify that the component is kept on the screen indefinitely by leaving this value blank.\n\nQuestion 3 | If you wanted to accept multiple different keys in a keyboard response what would you use to deliminate keys?  commasemi-coloncolondash\n\n\nExplain\n\nSometimes you will need a participant to choose from more than one response, in this case make sure the ‘Allowed keys’ property of a response component has the keys separated by a comma.",
+    "text": "Test yourself\nQuestion 1 | On the last screen of the experiment you have to press space for the experiment to exit. What column in the data generated for any run of the experiment gives you the time taken for a person to press space (the reaction time)?\n\n\nAnswer\n\nkey_resp.rt\n\n\n\nExplain\n\nAll data generated for an experiment is saved the data folder automatically generated when you run a PsychoPy Experiment. Within that folder - each participant has a spreadsheet, text document and PSYDAT file. Opening the spreadsheet is the easiest way to get a quick overview of the data collected. Within that spreadsheet, components from the experiment have their own column, and names are appended to indicate what they reflect. In this case the component is called key_resp and is appended with .rt to reflect that data in that column is reaction time.\n\nQuestion 2 | What value should you enter if you want a stimuli to remain on the screen indefinately?  09999‘blank’0000\n\n\nExplain\n\nIn the duration (s) property of any component you can specify how long that component should appear on the screen for. If you want, as we often do in an experiment, to wait for a response you can specify that the component is kept on the screen indefinitely by leaving this value blank.\n\nQuestion 3 | If you wanted to accept multiple different keys in a keyboard response what would you use to deliminate keys?  commasemi-coloncolondash\n\n\nExplain\n\nSometimes you will need a participant to choose from more than one response, in this case make sure the ‘Allowed keys’ property of a response component has the keys separated by a comma.",
     "crumbs": [
       "Using PsychoPy",
       "1 | Hello World"
@@ -311,11 +311,132 @@
     ]
   },
   {
+    "objectID": "Troubleshooting.html",
+    "href": "Troubleshooting.html",
+    "title": "- Troubleshooting -",
+    "section": "",
+    "text": "Introduction\nThis troubleshooting guide is designed to help you get started with troubleshooting common issues in PsychoPy, especially when using the Builder view. Most students won’t need to write code from scratch — and that’s okay. The Builder allows you to design experiments visually, but sometimes things don’t work as expected.\nThis guide highlights common issues that can arise while using Builder (and occasionally small bits of code), along with practical strategies to fix them.",
+    "crumbs": [
+      "Using PsychoPy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>- Troubleshooting -</span>"
+    ]
+  },
+  {
+    "objectID": "Troubleshooting.html#introduction",
+    "href": "Troubleshooting.html#introduction",
+    "title": "- Troubleshooting -",
+    "section": "",
+    "text": "What this troubleshooting guide is (and isn’t)\n\n\n\nThis is not a complete manual, but a practical starting point for common problems. Most of the time, if something goes wrong, you’re not the first person it’s happened to — and it’s usually fixable!\n\n\n\n\n\n\n\n\nWhy bother with troubleshooting?\n\n\n\nTroubleshooting can feel frustrating — but it’s also where real learning happens. Every problem you solve helps you understand how your experiment works and makes you more confident next time.",
+    "crumbs": [
+      "Using PsychoPy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>- Troubleshooting -</span>"
+    ]
+  },
+  {
+    "objectID": "Troubleshooting.html#components-not-appearing",
+    "href": "Troubleshooting.html#components-not-appearing",
+    "title": "- Troubleshooting -",
+    "section": "Components Not Appearing",
+    "text": "Components Not Appearing\n\nCommon issues:\n\nText, images, or stimuli don’t appear when the experiment runs.\n\nChecklist:\n\nCheck that your component’s Start and Stop times are correct (e.g., start at 0s or at frame 0).\nMake sure the component is set to draw (not disabled or hidden).\nAre you calling win.flip() with a custom code snippet? If so, that may override Builder’s drawing logic — check with your instructor before modifying window display.\nEnsure order in the Routine is correct — components lower down in the list might overwrite earlier ones if positioned in the same location.",
+    "crumbs": [
+      "Using PsychoPy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>- Troubleshooting -</span>"
+    ]
+  },
+  {
+    "objectID": "Troubleshooting.html#loop-or-routine-not-running",
+    "href": "Troubleshooting.html#loop-or-routine-not-running",
+    "title": "- Troubleshooting -",
+    "section": "Loop or Routine Not Running",
+    "text": "Loop or Routine Not Running\n\nCommon issues:\n\nYou expect something to repeat but it doesn’t — or the experiment skips sections entirely.\n\nChecklist:\n\nCheck if a loop is actually created around the routine in your Flow panel.\nEnsure your conditions file is properly attached and formatted (.csv or .xlsx).\nLook out for typos in column headers in your spreadsheet — these must exactly match the field names in Builder (e.g., $image, $word).",
+    "crumbs": [
+      "Using PsychoPy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>- Troubleshooting -</span>"
+    ]
+  },
+  {
+    "objectID": "Troubleshooting.html#file-not-found",
+    "href": "Troubleshooting.html#file-not-found",
+    "title": "- Troubleshooting -",
+    "section": "File Not Found",
+    "text": "File Not Found\n\nCommon issues:\n\nImages, sounds, or videos don’t load, or you get a “file not found” error.\n\nChecklist:\n\nAre your files in the same folder as your experiment file, or in a relative path (like images/cat.png)?\nAvoid using absolute file paths like C:/Users/YourName/Desktop/image.png — these often break on other machines.\nFile names are case-sensitive — check for capitalisation mismatches.",
+    "crumbs": [
+      "Using PsychoPy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>- Troubleshooting -</span>"
+    ]
+  },
+  {
+    "objectID": "Troubleshooting.html#unexpected-behaviour-or-errors",
+    "href": "Troubleshooting.html#unexpected-behaviour-or-errors",
+    "title": "- Troubleshooting -",
+    "section": "Unexpected Behaviour or Errors",
+    "text": "Unexpected Behaviour or Errors\n\nCommon issues:\n\nThe experiment crashes when you run it.\nUnexpected results (e.g., blank screens, skipped stimuli).\n\nChecklist:\n\nUse the Runner panel (bottom section) to read error messages.\nIf you added a Code component, check whether the error message refers to something in that custom code.\nTry running a simplified version of the experiment with fewer components — this can help narrow down what’s causing the issue.\n\n\n\n\n\n\n\n\nDon’t ignore error messages\n\n\n\nEven if error messages look technical, they usually point to the problem. Read the first few lines and look for filenames, line numbers, or words like “NameError” or “IndexError”. You can often spot the issue by searching online for the exact message.",
+    "crumbs": [
+      "Using PsychoPy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>- Troubleshooting -</span>"
+    ]
+  },
+  {
+    "objectID": "Troubleshooting.html#timing-or-overlap-issues",
+    "href": "Troubleshooting.html#timing-or-overlap-issues",
+    "title": "- Troubleshooting -",
+    "section": "Timing or Overlap Issues",
+    "text": "Timing or Overlap Issues\n\nCommon issues:\n\nA stimulus disappears too quickly, or doesn’t show up at all.\n\nChecklist:\n\nMake sure the duration settings for your component are correct.\nCheck whether another component starts too soon and overlaps or replaces the one you want.\nIf your stimuli depend on keyboard or mouse input, ensure the response is configured to allow screen updates as expected.",
+    "crumbs": [
+      "Using PsychoPy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>- Troubleshooting -</span>"
+    ]
+  },
+  {
+    "objectID": "Troubleshooting.html#psychopy-crashes-or-freezes",
+    "href": "Troubleshooting.html#psychopy-crashes-or-freezes",
+    "title": "- Troubleshooting -",
+    "section": "PsychoPy Crashes or Freezes",
+    "text": "PsychoPy Crashes or Freezes\n\nCommon issues:\n\nThe PsychoPy app freezes or refuses to launch.\n\nChecklist:\n\nTry closing and reopening PsychoPy.\nIf problems persist, restart your computer.\nStill broken? Re-download and reinstall the latest version of the standalone PsychoPy app from the official site: https://psychopy.org/download.html",
+    "crumbs": [
+      "Using PsychoPy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>- Troubleshooting -</span>"
+    ]
+  },
+  {
+    "objectID": "Troubleshooting.html#version-compatibility",
+    "href": "Troubleshooting.html#version-compatibility",
+    "title": "- Troubleshooting -",
+    "section": "Version Compatibility",
+    "text": "Version Compatibility\n\nCommon issues:\n\nSomething worked last week but no longer does, or behaviour is different on another machine.\n\nChecklist:\n\nCheck what version of PsychoPy you’re using (shown on the app’s launch screen).\nStick with the recommended version provided by your course team unless told otherwise.\nIf something suddenly stops working, try reinstalling the same version you originally used.",
+    "crumbs": [
+      "Using PsychoPy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>- Troubleshooting -</span>"
+    ]
+  },
+  {
+    "objectID": "Troubleshooting.html#debugging-tools-builder-friendly",
+    "href": "Troubleshooting.html#debugging-tools-builder-friendly",
+    "title": "- Troubleshooting -",
+    "section": "Debugging Tools (Builder-Friendly)",
+    "text": "Debugging Tools (Builder-Friendly)\n\nUse the “Print to Runner” box in the Code component to output messages to the Runner.\nYou can temporarily add a simple text component to show variable values onscreen for testing.\nUse the “Runner” panel to read errors and trace problems step-by-step.",
+    "crumbs": [
+      "Using PsychoPy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>- Troubleshooting -</span>"
+    ]
+  },
+  {
+    "objectID": "Troubleshooting.html#still-stuck",
+    "href": "Troubleshooting.html#still-stuck",
+    "title": "- Troubleshooting -",
+    "section": "Still stuck?",
+    "text": "Still stuck?\n\n\n\n\n\n\nBefore asking for help…\n\n\n\nTry this first: 1. Double-check your Builder settings. 2. Read the error in the Runner panel. 3. Try removing or simplifying a component to isolate the problem. 4. Search online or check the PsychoPy Forum.\n\n\n\n\n\n\n\n\nFinal thought\n\n\n\nYou don’t need to be a programmer to build experiments — but becoming confident in solving small problems is a huge step forward. Don’t panic. Stay curious. You’ve got this.",
+    "crumbs": [
+      "Using PsychoPy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>- Troubleshooting -</span>"
+    ]
+  },
+  {
     "objectID": "PickAnExperiment.html",
     "href": "PickAnExperiment.html",
     "title": "Pick an Experiment",
     "section": "",
-    "text": "Choose one of the following experiments to build in PsychoPy. Along with the PsychoPy experiment forming part of your submission, you should also provide a 1500-word summary. The summary should explain what design decisions you have made and why you made them – specifically what research question are you addressing with your design choices. Also, briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network. You should complete this summary by answering the questions given in the template document.\n\nErikson Flanker Task\nSpatial Cuing Task\nLevels of Processing\nN-back Task\nMental Rotation",
+    "text": "Choose one of the following experiments to build in PsychoPy. Along with the PsychoPy experiment forming part of your submission, you should also provide a 1500-word summary. The summary should explain what design decisions you have made and why you made them – specifically what research question are you addressing with your design choices. Also, briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network (see details on explaining your experiment here).\n\nErikson Flanker Task\nSpatial Cuing Task\nLevels of Processing\nN-back Task\nMental Rotation\n\nIt’s important that you follow the requirements laid out for the experiment that you pick. Make sure you make changes to the experimental design to make it your own. These changes should:\n\nHave a clear rationale based on previous research\nBe within subject manipulations",
     "crumbs": [
       "Pick an Experiment"
     ]
@@ -602,7 +723,7 @@
     "section": "",
     "text": "Instructions\nBased on your chosen experiment that you have built in PsychoPy, provide a 1500-word summary by answering the questions below. This summary should explain what design decisions you have made and why you made them – specifically what research question are you addressing with your design choices. Make sure you briefly review the available evidence that suggests that your task is underpinned by a specific neural region or network. Use the following subsections to write your summary:",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Explain Your Experiment</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Explain Your Experiment</span>"
     ]
   },
   {
@@ -610,9 +731,9 @@
     "href": "Explain.html#instructions",
     "title": "Explain Your Experiment",
     "section": "",
-    "text": "Aims (~150 words).\n\nWhat are the overall research aims of your experiment? What do you hope to test and find out about cognition and/or the brain from your results.\n\nBackground & rationale (~700 words).\n\nThis section should include references and provide a succinct summary of key findings in the field that have used similar experimental designs. It is important that you include here an overview of research that has linked brain structure and/or function to experiments similar to yours. Importantly, you should also provide some key theoretical rationale for your experiment.\n\n\nPredictions (~150 words).\n\nYour predictions don’t have to be comprehensive but they should include critical hypotheses - what hypothesis is the key test of your theory?\n\nMethods & design rationale (~500 words).\n\nHere you should outline the details of your experimental design and procedure. It is important that you include a rationale for any decisions you made about the design structure and procedural set up. If, for example, you added another condition, or changed the nature of the stimuli systematically - explain here why you did this - what are these novel manipulations meant to test?",
+    "text": "Aims\n(~150 words)\nWhat are the overall research aims of your experiment? What do you hope to test and find out about cognition and/or the brain from your results.\n\n\nBackground & rationale\n(~700 words)\nThis section should include references and provide a succinct summary of key findings in the field that have used similar experimental designs. It is important that you include here an overview of research that has linked brain structure and/or function to experiments similar to yours. Importantly, you should also provide some key theoretical rationale for your experiment.\n\n\n\nPredictions\n(~150 words)\nYour predictions don’t have to be comprehensive but they should include critical hypotheses - what hypothesis is the key test of your theory?\n\n\nMethods & design rationale\n(~500 words)\nHere you should outline the details of your experimental design and procedure. It is important that you include a rationale for any decisions you made about the design structure and procedural set up. If, for example, you added another condition, or changed the nature of the stimuli systematically - explain here why you did this - what are these novel manipulations meant to test?",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Explain Your Experiment</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Explain Your Experiment</span>"
     ]
   },
   {
@@ -620,9 +741,9 @@
     "href": "Submit.html",
     "title": "How to Submit",
     "section": "",
-    "text": "Written component\nYour final portfolio accounts for 80% of your grade for this module. Your write up of your experiment should form part of your portfolio that should be submitted as one document on MyLearning here (log in to MyLearning required)",
+    "text": "Written component\nYour write up of your experiment should form part of your portfolio that should be submitted as one document on MyLearning here (log in to MyLearning required)",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>How to Submit</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How to Submit</span>"
     ]
   },
   {
@@ -632,7 +753,7 @@
     "section": "Experiment",
     "text": "Experiment\nAs part of your portfolio you should also submit your experiment built in PsychoPy. To do so you should zip your folder (help on how to zip a file) and upload your compressed folder to MyLearning here.\nYour folder should include:\n- A PsychoPy experiment file\n- A spreadsheet for trials and blocks.\n- A readme file with a brief outline of the experiment.\n- Any stimuli needed for your experiment to run.\nYour experiment should be standalone - the folder should contain everything needed to run the experiment (except an installation of PsychoPy)",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>How to Submit</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How to Submit</span>"
     ]
   },
   {
@@ -642,7 +763,7 @@
     "section": "",
     "text": "PsychoPy Specific",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
@@ -652,7 +773,7 @@
     "section": "",
     "text": "PsychoPy Experiment Recipe Book\nSusan Benear’s - Coding Outreach Group Summer Workshop\nPsychoPy Forum – use it, create an account, ask questions and help others.\nExcellent introductory information from the University of Nottingham\nPeirce, J., Hirst, R., & MacAskill, M. (2022). Building experiments in PsychoPy. Sage.\n\nAvailable electronically from MDX library - sign in required.\n\nSlides Jon & Alex’s lecture on PsychoPy.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
@@ -662,7 +783,7 @@
     "section": "Python Specific",
     "text": "Python Specific\n\nDownload and install Python\nIntroduction to Python online\nlearnpython.org\nLutz, M. (2013). Learning python: Powerful object-oriented programming. ” O’Reilly Media, Inc.”.\n\nAvailable electronically from MDX library - sign in required.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
@@ -672,7 +793,7 @@
     "section": "Broader Programing Resources",
     "text": "Broader Programing Resources\n\nR and RStudio\n\nR is a programming language commonly used in data science and statistics.\nR studio is a desktop environment for using coding programs like R and Python.\n\nPsyTeachR - is an amazing set of resources made freely available by the Psychology department at Glasgow University - highly recommended!",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {

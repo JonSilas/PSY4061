@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Designing, Building and Explaining an Experiment - 2 | Simon Experiment</title>
+<title>Designing, Building and Explaining an Experiment - - Troubleshooting -</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./SimonFeedback.html" rel="next">
-<link href="./1.0_HelloWorld.html" rel="prev">
+<link href="./PickAnExperiment.html" rel="next">
+<link href="./Blocks.html" rel="prev">
 <link href="./images/icon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -111,7 +111,7 @@ background: Tomato;
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Using PsychoPy.html">Using PsychoPy</a></li><li class="breadcrumb-item"><a href="./Simon.html">2 | Simon Experiment</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Using PsychoPy.html">Using PsychoPy</a></li><li class="breadcrumb-item"><a href="./Troubleshooting.html"><span class="chapter-title">- Troubleshooting -</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -121,10 +121,10 @@ background: Tomato;
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Using PsychoPy.html">Using PsychoPy</a></li><li class="breadcrumb-item"><a href="./Simon.html">2 | Simon Experiment</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Using PsychoPy.html">Using PsychoPy</a></li><li class="breadcrumb-item"><a href="./Troubleshooting.html"><span class="chapter-title">- Troubleshooting -</span></a></li></ol></nav>
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">2 | Simon Experiment</h1>
+      <h1 class="title"><span class="chapter-title">- Troubleshooting -</span></h1>
                       </div>
   </div>
     
@@ -224,7 +224,7 @@ background: Tomato;
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Simon.html" class="sidebar-item-text sidebar-link active">
+  <a href="./Simon.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2 | Simon Experiment</span></a>
   </div>
 </li>
@@ -248,7 +248,7 @@ background: Tomato;
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Troubleshooting.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">- Troubleshooting -</span></a>
+  <a href="./Troubleshooting.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">- Troubleshooting -</span></a>
   </div>
 </li>
       </ul>
@@ -325,9 +325,16 @@ background: Tomato;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-you-learn" id="toc-what-you-learn" class="nav-link active" data-scroll-target="#what-you-learn">What you learn</a></li>
-  <li><a href="#things-to-change" id="toc-things-to-change" class="nav-link" data-scroll-target="#things-to-change">Things to change</a></li>
-  <li><a href="#test-yourself" id="toc-test-yourself" class="nav-link" data-scroll-target="#test-yourself">Test yourself</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#components-not-appearing" id="toc-components-not-appearing" class="nav-link" data-scroll-target="#components-not-appearing">Components Not Appearing</a></li>
+  <li><a href="#loop-or-routine-not-running" id="toc-loop-or-routine-not-running" class="nav-link" data-scroll-target="#loop-or-routine-not-running">Loop or Routine Not Running</a></li>
+  <li><a href="#file-not-found" id="toc-file-not-found" class="nav-link" data-scroll-target="#file-not-found">File Not Found</a></li>
+  <li><a href="#unexpected-behaviour-or-errors" id="toc-unexpected-behaviour-or-errors" class="nav-link" data-scroll-target="#unexpected-behaviour-or-errors">Unexpected Behaviour or Errors</a></li>
+  <li><a href="#timing-or-overlap-issues" id="toc-timing-or-overlap-issues" class="nav-link" data-scroll-target="#timing-or-overlap-issues">Timing or Overlap Issues</a></li>
+  <li><a href="#psychopy-crashes-or-freezes" id="toc-psychopy-crashes-or-freezes" class="nav-link" data-scroll-target="#psychopy-crashes-or-freezes">PsychoPy Crashes or Freezes</a></li>
+  <li><a href="#version-compatibility" id="toc-version-compatibility" class="nav-link" data-scroll-target="#version-compatibility">Version Compatibility</a></li>
+  <li><a href="#debugging-tools-builder-friendly" id="toc-debugging-tools-builder-friendly" class="nav-link" data-scroll-target="#debugging-tools-builder-friendly">Debugging Tools (Builder-Friendly)</a></li>
+  <li><a href="#still-stuck" id="toc-still-stuck" class="nav-link" data-scroll-target="#still-stuck">Still stuck?</a></li>
   </ul>
 </nav>
     </div>
@@ -338,86 +345,201 @@ background: Tomato;
 
 
 
-<p>First, download the <a href="PsychoPy/2.SimonEffect.zip">SimonEffect.zip</a> folder and unpack it, then open the folder and open the ‘SimonEffect_experiment.psyexp’ PsychoPy file.</p>
-<p>We are already starting to get a little more complicated with our PsychoPy experiments. Run the experiment before you start editing it by pressing the play button, entering any participant number, and pressing ‘ok’. In this experiment you are first given some instructions and then asked to respond to ‘green’ and ‘red’ circle stimuli. The Simon effect is an effect of reaction times - people are faster at responding with their left hand, on the left, when a stimulus is on the left – and this is true for the right side too. This is compared to when you make a response using your hand on the opposite side of a stimulus. This little experiment will actually generate some data!</p>
-<p>As it stands, the experiment will first, give you some instructions then run you through two ‘congruent’ trials - where the side of the stimuli and the side of the response match. After that it will end.</p>
-<section id="what-you-learn" class="level2">
-<h2 class="anchored" data-anchor-id="what-you-learn">What you learn</h2>
-<p>The idea is that making changes to the PsychoPy experiment will help you get a feel of changing parameters within components, routines and loops. This introductory experiment is aimed at helping you to get better at:</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This troubleshooting guide is designed to help you get started with troubleshooting common issues in PsychoPy, especially when using the <strong>Builder view</strong>. Most students won’t need to write code from scratch — and that’s okay. The Builder allows you to design experiments visually, but sometimes things don’t work as expected.</p>
+<p>This guide highlights common issues that can arise while using Builder (and occasionally small bits of code), along with practical strategies to fix them.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="What this troubleshooting guide is (and isn't)">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What this troubleshooting guide is (and isn’t)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is <strong>not a complete manual</strong>, but a practical starting point for common problems. Most of the time, if something goes wrong, you’re not the first person it’s happened to — and it’s usually fixable!</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" title="Why bother with troubleshooting?">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Why bother with troubleshooting?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Troubleshooting can feel frustrating — but it’s also where real learning happens. Every problem you solve helps you understand how your experiment works and makes you more confident next time.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="components-not-appearing" class="level2">
+<h2 class="anchored" data-anchor-id="components-not-appearing">Components Not Appearing</h2>
 <ul>
-<li>Modifying components of loops, routines and components.</li>
-<li>Modifying Excel file to result in changes in the experiment.</li>
-<li>Modifying routine’s length.</li>
-<li>Adding correct answers.</li>
+<li><strong>Common issues:</strong>
+<ul>
+<li>Text, images, or stimuli don’t appear when the experiment runs.</li>
+</ul></li>
+<li><strong>Checklist:</strong>
+<ul>
+<li>Check that your component’s <strong>Start and Stop times</strong> are correct (e.g., start at 0s or at frame 0).</li>
+<li>Make sure the component is <strong>set to draw</strong> (not disabled or hidden).</li>
+<li>Are you calling <code>win.flip()</code> with a custom code snippet? If so, that may override Builder’s drawing logic — check with your instructor before modifying window display.</li>
+<li>Ensure <strong>order in the Routine</strong> is correct — components lower down in the list might overwrite earlier ones if positioned in the same location.</li>
+</ul></li>
 </ul>
+<hr>
 </section>
-<section id="things-to-change" class="level2">
-<h2 class="anchored" data-anchor-id="things-to-change">Things to change</h2>
-<p>Let’s see if you can make a few changes and perhaps even get some simple data to look at.</p>
-<p>1.&nbsp;Can you add two trials in the ‘incongruent’ condition - so that a red circle appears on the right in one trial and a green circle on the left in another trial?</p>
-<div class="webex-solution">
-<button>
-Hint
-</button>
-<p>You will need to modify the Excel file, save it, and upload it again to the <code>trials</code> loop. You want two more trials that are in effect the opposite of what you see for the congruent trials - label them as <code>incongruent</code>.</p>
-</div>
-<p>2.&nbsp;Once you’ve added more conditions, make sure they appear in a random order and add more repetitions of trials; so that the number of trials per condition repeat - set it for 5 repetitions per condition.</p>
-<div class="webex-solution">
-<button>
-Hint
-</button>
-<p>You can change all of this by manipulating the properties of the <code>trials</code> loop.</p>
-</div>
-<div class="webex-solution">
-<button>
-Answer
-</button>
-<p>Within the properties of the ‘trials’ loop, change <code>loopType</code> to <code>random</code> and change <code>nReps</code> to <code>5</code>.</p>
-</div>
-<p>3.&nbsp;At the moment the stimuli stay on the screen until a response. To increase errors and speed up responses can you set a time limit so that the participant only has 2 seconds to respond?</p>
-<div class="webex-solution">
-<button>
-Hint
-</button>
-<p>You can change all of this by manipulating the properties of the components within the <code>trial</code> routine.</p>
-</div>
-<div class="webex-solution">
-<button>
-Answer
-</button>
-<p>Click on the <code>key_resp</code> component within the <code>trial</code> routine.Change <code>duation (s)</code> to <code>2</code>.</p>
-</div>
-<p>4.&nbsp;Can you manipulate the <code>key_resp</code> component in the <code>trial</code> routine so that it stores the correct answer?</p>
-<div class="webex-solution">
-<button>
-Hint
-</button>
-<p>As well as modifying the properties in <code>key_resp</code> Data tab, you will also have to make some changes to the spreadsheet so that you can identify what response is correct in any given condition.</p>
-</div>
-<div class="webex-solution">
-<button>
-Answer
-</button>
-<p>In the excel spreadsheet add a new column called <code>correct</code> include in there the correct key response for each trial. In the Data tab of the <code>key_resp</code> component, click <code>Store correct</code> and enter <code>$</code> followed by the name of your column in the <code>Correct answer</code> field.</p>
-</div>
+<section id="loop-or-routine-not-running" class="level2">
+<h2 class="anchored" data-anchor-id="loop-or-routine-not-running">Loop or Routine Not Running</h2>
+<ul>
+<li><strong>Common issues:</strong>
+<ul>
+<li>You expect something to repeat but it doesn’t — or the experiment skips sections entirely.</li>
+</ul></li>
+<li><strong>Checklist:</strong>
+<ul>
+<li>Check if a <strong>loop</strong> is actually created around the routine in your Flow panel.</li>
+<li>Ensure your <strong>conditions file</strong> is properly attached and formatted (.csv or .xlsx).</li>
+<li>Look out for <strong>typos in column headers</strong> in your spreadsheet — these must exactly match the field names in Builder (e.g., <code>$image</code>, <code>$word</code>).</li>
+</ul></li>
+</ul>
+<hr>
 </section>
-<section id="test-yourself" class="level2">
-<h2 class="anchored" data-anchor-id="test-yourself">Test yourself</h2>
-<p><strong>Question 1</strong> | If you wanted to allow the letters p and q as a response (instead of a and k) what would you type in the ‘Allowed keys’ section of the response properties? <br><br> <select class="webex-select"><option value="blank"></option><option value="answer">‘q’, ‘p’</option><option value="">‘q,p’</option><option value="">‘q-p’</option><option value="">Q,P</option></select></p>
-<p><strong>Question 2</strong> | In the <code>trial</code> component, the <code>left_stim</code> and <code>right_stim</code> components get their colour from the spreadsheet. What symbol tell PsychoPy that the colour is listed in the spreadsheet? <br><br> <select class="webex-select"><option value="blank"></option><option value="">#</option><option value="">£</option><option value="">&amp;</option><option value="answer">$</option></select></p>
-<p><strong>Question 3</strong> | If you want any property of a component to change on a trial-by-trial basis which of the following should you select? <br><br> <select class="webex-select"><option value="blank"></option><option value="">Constant</option><option value="">Set every frame</option><option value="answer">Set every repeat</option></select></p>
-<p><strong>Question 4</strong> | What is the name of the column in your data that tells you if a response was correct or not?<br><br><input class="webex-solveme nospaces ignorecase" size="20" data-answer="[&quot;key_resp.corr&quot;]"></p>
-<div class="webex-solution">
-<button>
-Answer
-</button>
-<p>key_resp.corr</p>
+<section id="file-not-found" class="level2">
+<h2 class="anchored" data-anchor-id="file-not-found">File Not Found</h2>
+<ul>
+<li><strong>Common issues:</strong>
+<ul>
+<li>Images, sounds, or videos don’t load, or you get a “file not found” error.</li>
+</ul></li>
+<li><strong>Checklist:</strong>
+<ul>
+<li>Are your files in the <strong>same folder</strong> as your experiment file, or in a <strong>relative path</strong> (like <code>images/cat.png</code>)?</li>
+<li>Avoid using <strong>absolute file paths</strong> like <code>C:/Users/YourName/Desktop/image.png</code> — these often break on other machines.</li>
+<li>File names are <strong>case-sensitive</strong> — check for capitalisation mismatches.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="unexpected-behaviour-or-errors" class="level2">
+<h2 class="anchored" data-anchor-id="unexpected-behaviour-or-errors">Unexpected Behaviour or Errors</h2>
+<ul>
+<li><strong>Common issues:</strong>
+<ul>
+<li>The experiment crashes when you run it.</li>
+<li>Unexpected results (e.g., blank screens, skipped stimuli).</li>
+</ul></li>
+<li><strong>Checklist:</strong>
+<ul>
+<li>Use the <strong>Runner panel (bottom section)</strong> to read error messages.</li>
+<li>If you added <strong>a Code component</strong>, check whether the error message refers to something in that custom code.</li>
+<li>Try running a simplified version of the experiment with fewer components — this can help narrow down what’s causing the issue.</li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled" title="Don’t ignore error messages">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="webex-solution">
-<button>
-Explain
-</button>
-<p>Once you’ve correctly allowed PsychoPy to know what a correct reponse is (see ‘what to change’ point 4)</p>
+<div class="callout-title-container flex-fill">
+Don’t ignore error messages
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Even if error messages look technical, they usually point to the problem. Read the first few lines and look for filenames, line numbers, or words like “NameError” or “IndexError”. You can often spot the issue by searching online for the exact message.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="timing-or-overlap-issues" class="level2">
+<h2 class="anchored" data-anchor-id="timing-or-overlap-issues">Timing or Overlap Issues</h2>
+<ul>
+<li><strong>Common issues:</strong>
+<ul>
+<li>A stimulus disappears too quickly, or doesn’t show up at all.</li>
+</ul></li>
+<li><strong>Checklist:</strong>
+<ul>
+<li>Make sure the <strong>duration settings</strong> for your component are correct.</li>
+<li>Check whether <strong>another component starts too soon</strong> and overlaps or replaces the one you want.</li>
+<li>If your stimuli depend on keyboard or mouse input, ensure the response is configured to allow screen updates as expected.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="psychopy-crashes-or-freezes" class="level2">
+<h2 class="anchored" data-anchor-id="psychopy-crashes-or-freezes">PsychoPy Crashes or Freezes</h2>
+<ul>
+<li><strong>Common issues:</strong>
+<ul>
+<li>The PsychoPy app freezes or refuses to launch.</li>
+</ul></li>
+<li><strong>Checklist:</strong>
+<ul>
+<li>Try <strong>closing and reopening PsychoPy</strong>.</li>
+<li>If problems persist, <strong>restart your computer</strong>.</li>
+<li>Still broken? <strong>Re-download and reinstall</strong> the latest version of the standalone PsychoPy app from the official site: <a href="https://psychopy.org/download.html">https://psychopy.org/download.html</a></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="version-compatibility" class="level2">
+<h2 class="anchored" data-anchor-id="version-compatibility">Version Compatibility</h2>
+<ul>
+<li><strong>Common issues:</strong>
+<ul>
+<li>Something worked last week but no longer does, or behaviour is different on another machine.</li>
+</ul></li>
+<li><strong>Checklist:</strong>
+<ul>
+<li>Check what version of PsychoPy you’re using (shown on the app’s launch screen).</li>
+<li>Stick with the recommended version provided by your course team unless told otherwise.</li>
+<li>If something suddenly stops working, try reinstalling the same version you originally used.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="debugging-tools-builder-friendly" class="level2">
+<h2 class="anchored" data-anchor-id="debugging-tools-builder-friendly">Debugging Tools (Builder-Friendly)</h2>
+<ul>
+<li>Use the <strong>“Print to Runner”</strong> box in the Code component to output messages to the Runner.</li>
+<li>You can temporarily add a <strong>simple text component</strong> to show variable values onscreen for testing.</li>
+<li>Use <strong>the “Runner” panel</strong> to read errors and trace problems step-by-step.</li>
+</ul>
+<hr>
+</section>
+<section id="still-stuck" class="level2">
+<h2 class="anchored" data-anchor-id="still-stuck">Still stuck?</h2>
+<div class="callout callout-style-default callout-note callout-titled" title="Before asking for help...">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Before asking for help…
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Try this first: 1. Double-check your Builder settings. 2. Read the error in the Runner panel. 3. Try removing or simplifying a component to isolate the problem. 4. Search online or check the <a href="https://discourse.psychopy.org">PsychoPy Forum</a>.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" title="Final thought">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Final thought
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You don’t need to be a programmer to build experiments — but becoming confident in solving small problems is a huge step forward. Don’t panic. Stay curious. You’ve got this.</p>
+</div>
 </div>
 
 
@@ -1396,13 +1518,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./1.0_HelloWorld.html" class="pagination-link" aria-label="1 | Hello World">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">1 | Hello World</span>
+      <a href="./Blocks.html" class="pagination-link" aria-label="5 | Blocks">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">5 | Blocks</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./SimonFeedback.html" class="pagination-link" aria-label="3 | Simon Feedback">
-        <span class="nav-page-text">3 | Simon Feedback</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./PickAnExperiment.html" class="pagination-link" aria-label="Pick an Experiment">
+        <span class="nav-page-text">Pick an Experiment</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
