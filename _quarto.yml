@@ -1,5 +1,6 @@
 project:
   type: book
+
 number-sections: false
 book:
   google-analytics:
@@ -30,6 +31,7 @@ book:
     - SimonFeedback.qmd
     - Branching.qmd
     - Blocks.qmd
+    - Troubleshooting.qmd
   - part: PickAnExperiment.qmd
     chapters:
     - Erikson Flanker Task.qmd
