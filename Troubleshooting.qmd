@@ -1,0 +1,122 @@
+# - Troubleshooting - 
+
+## Introduction
+
+This troubleshooting guide is designed to help you get started with troubleshooting common issues in PsychoPy, especially when using the **Builder view**. Most students won’t need to write code from scratch — and that’s okay. The Builder allows you to design experiments visually, but sometimes things don’t work as expected.
+
+This guide highlights common issues that can arise while using Builder (and occasionally small bits of code), along with practical strategies to fix them.
+
+::: {.callout-note title="What this troubleshooting guide is (and isn't)"}
+This is **not a complete manual**, but a practical starting point for common problems. Most of the time, if something goes wrong, you’re not the first person it’s happened to — and it’s usually fixable!
+:::
+
+::: {.callout-important title="Why bother with troubleshooting?"}
+Troubleshooting can feel frustrating — but it’s also where real learning happens. Every problem you solve helps you understand how your experiment works and makes you more confident next time.
+:::
+
+---
+
+## Components Not Appearing
+
+- **Common issues:**
+  - Text, images, or stimuli don’t appear when the experiment runs.
+- **Checklist:**
+  - Check that your component’s **Start and Stop times** are correct (e.g., start at 0s or at frame 0).
+  - Make sure the component is **set to draw** (not disabled or hidden).
+  - Are you calling `win.flip()` with a custom code snippet? If so, that may override Builder’s drawing logic — check with your instructor before modifying window display.
+  - Ensure **order in the Routine** is correct — components lower down in the list might overwrite earlier ones if positioned in the same location.
+
+---
+
+## Loop or Routine Not Running
+
+- **Common issues:**
+  - You expect something to repeat but it doesn’t — or the experiment skips sections entirely.
+- **Checklist:**
+  - Check if a **loop** is actually created around the routine in your Flow panel.
+  - Ensure your **conditions file** is properly attached and formatted (.csv or .xlsx).
+  - Look out for **typos in column headers** in your spreadsheet — these must exactly match the field names in Builder (e.g., `$image`, `$word`).
+
+---
+
+## File Not Found
+
+- **Common issues:**
+  - Images, sounds, or videos don’t load, or you get a “file not found” error.
+- **Checklist:**
+  - Are your files in the **same folder** as your experiment file, or in a **relative path** (like `images/cat.png`)?
+  - Avoid using **absolute file paths** like `C:/Users/YourName/Desktop/image.png` — these often break on other machines.
+  - File names are **case-sensitive** — check for capitalisation mismatches.
+
+---
+
+## Unexpected Behaviour or Errors
+
+- **Common issues:**
+  - The experiment crashes when you run it.
+  - Unexpected results (e.g., blank screens, skipped stimuli).
+- **Checklist:**
+  - Use the **Runner panel (bottom section)** to read error messages.
+  - If you added **a Code component**, check whether the error message refers to something in that custom code.
+  - Try running a simplified version of the experiment with fewer components — this can help narrow down what’s causing the issue.
+
+::: {.callout-tip title="Don’t ignore error messages"}
+Even if error messages look technical, they usually point to the problem. Read the first few lines and look for filenames, line numbers, or words like “NameError” or “IndexError”. You can often spot the issue by searching online for the exact message.
+:::
+
+---
+
+## Timing or Overlap Issues
+
+- **Common issues:**
+  - A stimulus disappears too quickly, or doesn’t show up at all.
+- **Checklist:**
+  - Make sure the **duration settings** for your component are correct.
+  - Check whether **another component starts too soon** and overlaps or replaces the one you want.
+  - If your stimuli depend on keyboard or mouse input, ensure the response is configured to allow screen updates as expected.
+
+---
+
+## PsychoPy Crashes or Freezes
+
+- **Common issues:**
+  - The PsychoPy app freezes or refuses to launch.
+- **Checklist:**
+  - Try **closing and reopening PsychoPy**.
+  - If problems persist, **restart your computer**.
+  - Still broken? **Re-download and reinstall** the latest version of the standalone PsychoPy app from the official site: [https://psychopy.org/download.html](https://psychopy.org/download.html)
+
+---
+
+## Version Compatibility
+
+- **Common issues:**
+  - Something worked last week but no longer does, or behaviour is different on another machine.
+- **Checklist:**
+  - Check what version of PsychoPy you’re using (shown on the app’s launch screen).
+  - Stick with the recommended version provided by your course team unless told otherwise.
+  - If something suddenly stops working, try reinstalling the same version you originally used.
+
+---
+
+## Debugging Tools (Builder-Friendly)
+
+- Use the **"Print to Runner"** box in the Code component to output messages to the Runner.
+- You can temporarily add a **simple text component** to show variable values onscreen for testing.
+- Use **the "Runner" panel** to read errors and trace problems step-by-step.
+
+---
+
+## Still stuck?
+
+::: {.callout-note title="Before asking for help..."}
+Try this first:
+1. Double-check your Builder settings.
+2. Read the error in the Runner panel.
+3. Try removing or simplifying a component to isolate the problem.
+4. Search online or check the [PsychoPy Forum](https://discourse.psychopy.org).
+:::
+
+::: {.callout-important title="Final thought"}
+You don’t need to be a programmer to build experiments — but becoming confident in solving small problems is a huge step forward. Don’t panic. Stay curious. You’ve got this.
+:::

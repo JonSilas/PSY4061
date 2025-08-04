@@ -53,7 +53,7 @@ cat("This is a bit more involved and really there are a few ways you can do this
 ## Test yourself
 
 ```{r,echo = FALSE, results = 'asis'}
-question <- "**Question 1** | On the last screen of the experiment you have to press space for the experiment to exit. What column in the data generated for any run of the experiment gives you this reaction time?"
+question <- "**Question 1** | On the last screen of the experiment you have to press space for the experiment to exit. What column in the data generated for any run of the experiment gives you the time taken for a person to press space (the reaction time)?"
 cat(paste(question, "<br><br>", sep = ""))
 
 cat(fitb(c("key_resp.rt"), ignore_case = TRUE, width = "20"))
