@@ -14,7 +14,7 @@ The pages that follow will guide you through setting up, testing, and troublesho
 ::: {.callout-important collapse="true" title="Portfolio Deadline"}
 You should submit your final functioning PsychoPy experiment as a zipped folder containing all relevant documents and programs. Your explanation of your experiment should be submitted as part of your portfolio.
 
-**Portfolio submission deadline - 12.12.25 10am**
+**Portfolio submission deadline - 18.12.26 10am**
 
 [See instructions on how to submit your work here](Submit.qmd)
 :::
